@@ -3,7 +3,7 @@
   "title": "巨人高中專題實作報告格式規格",
   "source_docx": "巨人高中專題格式.docx",
   "locale": "zh-TW",
-  "extracted_at_note": "Rules from Word comments/textboxes/body callouts; style/sectPr as observed evidence. Margins confirmed by user 2026-10-31 for all sections. Remaining conflicts marked uncertain.",
+  "extracted_at_note": "Rules from Word comments/textboxes/body/sample; user confirmations 2026-10-31. Organized by section for per-chapter testing. full_document_only rules need the whole file.",
   "page": {
     "size_cm": [
       21.0,
@@ -424,11 +424,11 @@
     "page_count_min": 10,
     "page_count_max": null,
     "page_count_unit": "pages",
-    "page_count_scope": "entire_document_total_pages",
-    "page_count_scope_note": "以整份文件總頁數計；封面／目錄／附錄是否計入尚待確認",
-    "page_count_scope_status": "uncertain",
+    "page_count_scope": "entire_document_including_cover_toc_appendix",
+    "page_count_scope_note": "整份文件總頁數（含封面、目錄、圖表目錄、正文、參考文獻、附錄）≥10",
+    "page_count_scope_status": "confirmed",
     "applies_zhongxuesheng_essay_limits": false,
-    "note": "巨人高中自訂專題格式；字數不限；頁數≥10；不套用中學生小論文限制",
+    "note": "巨人高中自訂；字數不限；頁數≥10（整份文件）",
     "source": "使用者確認 2026-10-31",
     "status": "confirmed",
     "rule_ids": [
@@ -442,7 +442,17 @@
       "condition": "紙張 21.0×29.7 cm（A4）直式",
       "source": "sectPr",
       "auto_checkable": true,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R002",
@@ -450,7 +460,17 @@
       "condition": "所有節邊界上/下 2.54 cm、左/右 3.17 cm、gutter=0",
       "source": "comment:0|textbox|使用者確認 2026-10-31",
       "auto_checkable": true,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R003",
@@ -458,7 +478,12 @@
       "condition": "原始 docx 正文節實測邊界/gutter 偏差（非規格）",
       "source": "sectPr|使用者確認否決 2026-10-31",
       "auto_checkable": true,
-      "status": "non_normative_sample_deviation"
+      "status": "non_normative_sample_deviation",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R004",
@@ -466,7 +491,17 @@
       "condition": "邊界以 R002 為唯一規格（已決議）",
       "source": "使用者確認 2026-10-31",
       "auto_checkable": true,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R010",
@@ -474,7 +509,12 @@
       "condition": "校名標楷體 26pt 置中",
       "source": "comment:1",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R011",
@@ -482,7 +522,12 @@
       "condition": "專題實作報告標 26pt 置中",
       "source": "comment:2",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R012",
@@ -490,7 +535,12 @@
       "condition": "校名與報告標題間空 2 行（12pt）",
       "source": "comment:1",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R013",
@@ -498,7 +548,12 @@
       "condition": "報告標題與題目間空 2 行（12pt）",
       "source": "comment:2",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R014",
@@ -506,7 +561,12 @@
       "condition": "題目標楷體 20pt 置中",
       "source": "comment:3",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R015",
@@ -514,7 +574,12 @@
       "condition": "題目與班級區間空 2 行",
       "source": "comment:3",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R016",
@@ -522,7 +587,12 @@
       "condition": "班級/學生/老師以表格、16pt",
       "source": "comment:4",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R017",
@@ -530,7 +600,12 @@
       "condition": "封面欄位含班級、製作學生、指導老師",
       "source": "body",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R018",
@@ -538,7 +613,12 @@
       "condition": "日期 20pt 分散對齊",
       "source": "comment:5",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R020",
@@ -546,7 +626,12 @@
       "condition": "簽名頁含校名/報告名/題目",
       "source": "comment:6-8",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R021",
@@ -554,7 +639,12 @@
       "condition": "口試委員2、指導老師1、16pt 標楷體",
       "source": "comment:9",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R022",
@@ -562,7 +652,12 @@
       "condition": "簽名頁日期 20pt 分散對齊",
       "source": "comment:10",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R030",
@@ -570,7 +665,17 @@
       "condition": "中文 eastAsia=標楷體",
       "source": "comment",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R031",
@@ -578,7 +683,17 @@
       "condition": "英文/數字=Times New Roman",
       "source": "comment",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R032",
@@ -586,7 +701,17 @@
       "condition": "docDefaults eastAsia 實測為新細明體，交件須覆寫",
       "source": "style",
       "auto_checkable": true,
-      "status": "observed_sample"
+      "status": "observed_sample",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R033",
@@ -594,7 +719,16 @@
       "condition": "內文12pt、首行縮排2字、1.5倍、段間不空行",
       "source": "comment:27",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R034",
@@ -602,7 +736,16 @@
       "condition": "正文左右對齊（justify/both）",
       "source": "使用者確認 2026-10-31",
       "auto_checkable": true,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R035",
@@ -610,7 +753,16 @@
       "condition": "直接引用粗體+引號、≤50字不含標點",
       "source": "comment:27",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R036",
@@ -618,7 +770,16 @@
       "condition": "引用須標作者年代並列入參考文獻",
       "source": "comment:27",
       "auto_checkable": false,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R040",
@@ -626,7 +787,16 @@
       "condition": "層次：第○章/1-1/一、/（一）/1./（1）",
       "source": "body",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R041",
@@ -634,7 +804,16 @@
       "condition": "一般分到第四層即可",
       "source": "body",
       "auto_checkable": false,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R042",
@@ -642,7 +821,16 @@
       "condition": "章16pt粗體置中",
       "source": "comment:25",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R043",
@@ -650,7 +838,16 @@
       "condition": "章行距2倍、與節不空行",
       "source": "comment:25",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R044",
@@ -658,7 +855,16 @@
       "condition": "節1-1、14pt粗體靠左不縮排、1.5倍",
       "source": "comment:26",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R045",
@@ -666,7 +872,16 @@
       "condition": "更深層12pt；縮排1.5/2.5/3/4字元",
       "source": "body",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R046",
@@ -674,7 +889,16 @@
       "condition": "編碼框稱標題1.5倍；章以R043的2倍為準",
       "source": "body|comment:25",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R047",
@@ -682,7 +906,12 @@
       "condition": "參考文獻標題14pt粗體靠左1.5倍",
       "source": "comment:37",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "references",
+      "applies_to": [
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R048",
@@ -690,7 +919,12 @@
       "condition": "附錄非章節、目錄靠左不縮排",
       "source": "comment:18",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R050",
@@ -698,7 +932,12 @@
       "condition": "摘要標題18pt置中1.5倍、與內文不空行",
       "source": "comment:12",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R051",
@@ -706,7 +945,12 @@
       "condition": "摘要內文12pt左右對齊首行2字1.5倍",
       "source": "comment:13",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R052",
@@ -714,7 +958,12 @@
       "condition": "關鍵詞3–5個、與摘要空1行、12pt靠左",
       "source": "comment:14",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R060",
@@ -722,7 +971,12 @@
       "condition": "目錄標題16pt置中1.5倍",
       "source": "comment:15",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R061",
@@ -730,7 +984,12 @@
       "condition": "目錄章條目12pt、頁碼右、阿拉伯數字",
       "source": "comment:16",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R062",
@@ -738,7 +997,12 @@
       "condition": "目錄節縮排2字、頁碼阿拉伯數字",
       "source": "comment:17",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R063",
@@ -746,7 +1010,12 @@
       "condition": "參考文獻/附錄在目錄靠左不縮排且有頁碼",
       "source": "comment:18",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R064",
@@ -754,7 +1023,12 @@
       "condition": "圖目錄標題16pt置中1.5倍",
       "source": "comment:20",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R065",
@@ -762,7 +1036,12 @@
       "condition": "圖目錄條目頁碼置右、大寫羅馬數字（upperRoman）",
       "source": "comment:21|使用者確認 2026-10-31",
       "auto_checkable": true,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R066",
@@ -770,7 +1049,12 @@
       "condition": "表目錄標題16pt置中1.5倍",
       "source": "comment:23",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R067",
@@ -778,7 +1062,12 @@
       "condition": "表目錄條目頁碼置右、大寫羅馬數字（upperRoman）",
       "source": "comment:24|使用者確認 2026-10-31",
       "auto_checkable": true,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R070",
@@ -786,7 +1075,12 @@
       "condition": "前頁頁碼 upperRoman",
       "source": "sectPr|footer",
       "auto_checkable": true,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R071",
@@ -794,7 +1088,16 @@
       "condition": "正文頁碼阿拉伯數字",
       "source": "sectPr|comment",
       "auto_checkable": true,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R072",
@@ -802,7 +1105,12 @@
       "condition": "目錄前頁碼範例 III–VI",
       "source": "body",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R080",
@@ -810,7 +1118,16 @@
       "condition": "圖編號 章-號 + 標題",
       "source": "comment:34",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R081",
@@ -818,7 +1135,16 @@
       "condition": "圖置中、圖名下方置中12pt1.5倍",
       "source": "comment:34",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R082",
@@ -826,7 +1152,16 @@
       "condition": "圖面積 ≤ 頁面1/4",
       "source": "comment:34",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R083",
@@ -834,7 +1169,12 @@
       "condition": "有圖必入圖目錄",
       "source": "comment:34",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R084",
@@ -842,7 +1182,16 @@
       "condition": "圖資料來源置中加括號",
       "source": "comment:35",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R085",
@@ -850,7 +1199,16 @@
       "condition": "表編號 章-號 + 標題",
       "source": "comment:30",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R086",
@@ -858,7 +1216,16 @@
       "condition": "表名上方靠左12pt1.5倍",
       "source": "comment:30",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R087",
@@ -866,7 +1233,16 @@
       "condition": "表格頁面置中",
       "source": "comment:31",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R088",
@@ -874,7 +1250,12 @@
       "condition": "有表必入表目錄",
       "source": "comment:30",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R089",
@@ -882,7 +1263,16 @@
       "condition": "表資料來源下方加括號",
       "source": "comment:32",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R090",
@@ -890,7 +1280,16 @@
       "condition": "圖表期刊資料來源格式",
       "source": "comment:32|35",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R091",
@@ -898,7 +1297,16 @@
       "condition": "圖表書籍資料來源格式",
       "source": "comment:32|35",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R092",
@@ -906,7 +1314,16 @@
       "condition": "非引用可註研究者繪製等",
       "source": "comment:35",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R093",
@@ -914,7 +1331,16 @@
       "condition": "英文正文引註格式",
       "source": "comment:29",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R094",
@@ -922,7 +1348,16 @@
       "condition": "中文正文引註格式",
       "source": "comment:29",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R100",
@@ -930,7 +1365,12 @@
       "condition": "結論內容指引",
       "source": "comment:36",
       "auto_checkable": false,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "ch4",
+      "applies_to": [
+        "ch4"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R101",
@@ -938,7 +1378,12 @@
       "condition": "文獻凸排2字、12pt、1.5倍、不空行",
       "source": "comment:38",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "references",
+      "applies_to": [
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R102",
@@ -946,7 +1391,12 @@
       "condition": "依中學生網站 APA",
       "source": "comment:38",
       "auto_checkable": false,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "references",
+      "applies_to": [
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R103",
@@ -954,7 +1404,12 @@
       "condition": "紙本文獻≥3篇",
       "source": "comment:38",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "references",
+      "applies_to": [
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R104",
@@ -962,7 +1417,12 @@
       "condition": "禁論壇/問答/聊天等",
       "source": "comment:38",
       "auto_checkable": false,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "references",
+      "applies_to": [
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R105",
@@ -970,7 +1430,12 @@
       "condition": "允許網址縮短器",
       "source": "comment:38",
       "auto_checkable": false,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "references",
+      "applies_to": [
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R106",
@@ -978,7 +1443,12 @@
       "condition": "網路資源引註模板",
       "source": "comment:38",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "references",
+      "applies_to": [
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R107",
@@ -986,7 +1456,12 @@
       "condition": "中文在前英文在後；筆畫/字母排序",
       "source": "comment:38",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "references",
+      "applies_to": [
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R108",
@@ -994,17 +1469,26 @@
       "condition": "網路/書籍/期刊書寫提示",
       "source": "comment:38",
       "auto_checkable": "partial",
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "references",
+      "applies_to": [
+        "references"
+      ],
+      "full_document_only": false
     },
     {
       "id": "R109",
       "category": "structure",
-      "condition": "字數無限制；頁數至少10頁（≥10，暫以整份文件總頁數計；計算範圍待確認）；不套用中學生小論文限制",
+      "condition": "字數無限制；整份文件總頁數（含封面、目錄、圖表目錄、正文、參考文獻、附錄）≥10；不套用中學生小論文限制",
       "source": "使用者確認 2026-10-31",
-      "auto_checkable": "partial",
+      "auto_checkable": true,
       "status": "confirmed",
-      "auto_check_note": "可檢查總頁數≥10；封面/目錄/附錄是否計入待確認",
-      "page_count_scope_status": "uncertain"
+      "auto_check_note": "以整份文件總頁數計（含封面、目錄、附錄）",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
     },
     {
       "id": "R110",
@@ -1012,26 +1496,444 @@
       "condition": "正文強制四章（章數=4；第一章～第四章；參考文獻/附錄不計）",
       "source": "使用者確認 2026-10-31",
       "auto_checkable": true,
-      "status": "confirmed"
+      "status": "confirmed",
+      "section": "global",
+      "applies_to": [
+        "global"
+      ],
+      "full_document_only": true
+    },
+    {
+      "id": "R111",
+      "category": "structure",
+      "condition": "第一章標題為「緒論」（註解目錄寫法「第一章 緒論」；範例同）",
+      "source": "comment:16|sample",
+      "auto_checkable": true,
+      "status": "confirmed",
+      "section": "ch1",
+      "applies_to": [
+        "ch1"
+      ],
+      "full_document_only": false
+    },
+    {
+      "id": "R112",
+      "category": "structure",
+      "condition": "第一章範例節：1-1 研究動機、1-2 研究目的、1-3 研究方法、1-4 研究流程（出自範例目錄／正文；註解未強制節名）",
+      "source": "sample TOC/body",
+      "auto_checkable": "partial",
+      "status": "sample_example",
+      "note": "建議／範例結構，非註解明文強制",
+      "section": "ch1",
+      "applies_to": [
+        "ch1"
+      ],
+      "full_document_only": false
+    },
+    {
+      "id": "R113",
+      "category": "structure",
+      "condition": "第二章標題為「文獻探討」（範例目錄／正文）",
+      "source": "sample TOC/body",
+      "auto_checkable": true,
+      "status": "confirmed",
+      "note": "註解以「第一章 緒論」～「第四章 結論」示章之寫法；中間章名取自範例",
+      "section": "ch2",
+      "applies_to": [
+        "ch2"
+      ],
+      "full_document_only": false
+    },
+    {
+      "id": "R114",
+      "category": "structure",
+      "condition": "第三章標題為「專題成果」（範例目錄／正文）",
+      "source": "sample TOC/body",
+      "auto_checkable": true,
+      "status": "confirmed",
+      "section": "ch3",
+      "applies_to": [
+        "ch3"
+      ],
+      "full_document_only": false
+    },
+    {
+      "id": "R115",
+      "category": "structure",
+      "condition": "第四章標題為「結論」或範例「結論與建議」（註解目錄寫「第四章 結論」；範例作「結論與建議」）",
+      "source": "comment:16|sample",
+      "auto_checkable": "partial",
+      "status": "confirmed",
+      "section": "ch4",
+      "applies_to": [
+        "ch4"
+      ],
+      "full_document_only": false
     }
   ],
   "structure": {
     "required_chapter_count": 4,
-    "chapter_pattern": "^第[一二三四1234]章",
-    "chapters_must_be_exactly": [
-      "第一章",
-      "第二章",
-      "第三章",
-      "第四章"
-    ],
-    "exclude_from_chapter_count": [
-      "參考文獻",
-      "附錄"
+    "chapters": [
+      {
+        "section": "ch1",
+        "number": 1,
+        "title": "緒論",
+        "rule_ids": [
+          "R111",
+          "R112"
+        ]
+      },
+      {
+        "section": "ch2",
+        "number": 2,
+        "title": "文獻探討",
+        "rule_ids": [
+          "R113"
+        ]
+      },
+      {
+        "section": "ch3",
+        "number": 3,
+        "title": "專題成果",
+        "rule_ids": [
+          "R114"
+        ]
+      },
+      {
+        "section": "ch4",
+        "number": 4,
+        "title": "結論",
+        "title_sample_alt": "結論與建議",
+        "rule_ids": [
+          "R115",
+          "R100"
+        ]
+      }
     ],
     "status": "confirmed",
-    "source": "使用者確認 2026-10-31",
+    "source": "comment:16|sample|使用者確認 2026-10-31",
     "rule_ids": [
-      "R110"
+      "R110",
+      "R111",
+      "R112",
+      "R113",
+      "R114",
+      "R115"
     ]
+  },
+  "organization": {
+    "purpose": "學生可完成一章後只測該章格式",
+    "section_ids": [
+      "global",
+      "ch1",
+      "ch2",
+      "ch3",
+      "ch4",
+      "references"
+    ],
+    "filter_hint": "依 rules[].section 或 sections[id].rule_ids 篩選；測章時另併 sections[ch].inherit_global_rule_ids，並排除 full_document_only=true"
+  },
+  "sections": {
+    "global": {
+      "id": "global",
+      "title": "全文類",
+      "title_zh": "全文類（封面、摘要、目錄／圖表目錄、版面、字型、頁碼、章節編號、圖表、引註等）",
+      "rule_ids": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R017",
+        "R018",
+        "R020",
+        "R021",
+        "R022",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R048",
+        "R050",
+        "R051",
+        "R052",
+        "R060",
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R066",
+        "R067",
+        "R070",
+        "R071",
+        "R072",
+        "R080",
+        "R081",
+        "R082",
+        "R083",
+        "R084",
+        "R085",
+        "R086",
+        "R087",
+        "R088",
+        "R089",
+        "R090",
+        "R091",
+        "R092",
+        "R093",
+        "R094",
+        "R109",
+        "R110"
+      ],
+      "full_document_only_rule_ids": [
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R017",
+        "R018",
+        "R020",
+        "R021",
+        "R022",
+        "R048",
+        "R050",
+        "R051",
+        "R052",
+        "R060",
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R066",
+        "R067",
+        "R070",
+        "R072",
+        "R083",
+        "R088",
+        "R109",
+        "R110"
+      ],
+      "description": "通用規則。標 full_document_only 者需整份文件才檢查（如目錄、頁數≥10、強制四章、封面／摘要）。"
+    },
+    "ch1": {
+      "id": "ch1",
+      "title": "第一章（緒論）",
+      "chapter_number": 1,
+      "chapter_title_required": "緒論",
+      "rule_ids": [
+        "R111",
+        "R112"
+      ],
+      "inherit_global_rule_ids": [
+        "R001",
+        "R002",
+        "R004",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R071",
+        "R080",
+        "R081",
+        "R082",
+        "R084",
+        "R085",
+        "R086",
+        "R087",
+        "R089",
+        "R090",
+        "R091",
+        "R092",
+        "R093",
+        "R094"
+      ],
+      "description": "測第一章時：套用本章 rule_ids + inherit_global_rule_ids；勿套用 full_document_only。"
+    },
+    "ch2": {
+      "id": "ch2",
+      "title": "第二章（文獻探討）",
+      "chapter_number": 2,
+      "chapter_title_required": "文獻探討",
+      "rule_ids": [
+        "R113"
+      ],
+      "inherit_global_rule_ids": [
+        "R001",
+        "R002",
+        "R004",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R071",
+        "R080",
+        "R081",
+        "R082",
+        "R084",
+        "R085",
+        "R086",
+        "R087",
+        "R089",
+        "R090",
+        "R091",
+        "R092",
+        "R093",
+        "R094"
+      ],
+      "description": "測第二章時：套用本章 rule_ids + inherit_global_rule_ids。"
+    },
+    "ch3": {
+      "id": "ch3",
+      "title": "第三章（專題成果）",
+      "chapter_number": 3,
+      "chapter_title_required": "專題成果",
+      "rule_ids": [
+        "R114"
+      ],
+      "inherit_global_rule_ids": [
+        "R001",
+        "R002",
+        "R004",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R071",
+        "R080",
+        "R081",
+        "R082",
+        "R084",
+        "R085",
+        "R086",
+        "R087",
+        "R089",
+        "R090",
+        "R091",
+        "R092",
+        "R093",
+        "R094"
+      ],
+      "description": "測第三章時：套用本章 rule_ids + inherit_global_rule_ids。"
+    },
+    "ch4": {
+      "id": "ch4",
+      "title": "第四章（結論）",
+      "chapter_number": 4,
+      "chapter_title_required": "結論",
+      "chapter_title_sample_alt": "結論與建議",
+      "rule_ids": [
+        "R100",
+        "R115"
+      ],
+      "inherit_global_rule_ids": [
+        "R001",
+        "R002",
+        "R004",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R071",
+        "R080",
+        "R081",
+        "R082",
+        "R084",
+        "R085",
+        "R086",
+        "R087",
+        "R089",
+        "R090",
+        "R091",
+        "R092",
+        "R093",
+        "R094"
+      ],
+      "description": "測第四章時：套用本章 rule_ids + inherit_global_rule_ids。"
+    },
+    "references": {
+      "id": "references",
+      "title": "參考文獻",
+      "rule_ids": [
+        "R047",
+        "R101",
+        "R102",
+        "R103",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108"
+      ],
+      "inherit_global_rule_ids": [
+        "R001",
+        "R002",
+        "R004",
+        "R030",
+        "R031",
+        "R032"
+      ],
+      "description": "測參考文獻時：套用本節 rule_ids + 版面／字型等 inherit。"
+    }
   }
 }
