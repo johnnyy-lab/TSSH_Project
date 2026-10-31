@@ -173,13 +173,14 @@
     "first_line_indent_chars": 2,
     "no_blank_between_paragraphs": true,
     "align": {
-      "comment_text": "考左對齊(疑為靠左)",
-      "abstract_comment": "左右對齊",
-      "status": "uncertain",
+      "value": "both",
+      "aka": "justify",
+      "status": "confirmed",
+      "source": "使用者確認 2026-10-31",
       "rule_ids": [
-        "R033",
         "R034"
-      ]
+      ],
+      "note": "原註解「考左對齊」作廢；摘要標題區對齊規則仍見 abstract.body.align"
     },
     "direct_quote": {
       "bold": true,
@@ -284,20 +285,24 @@
     "chapter_page_numbers": "arabic",
     "section_indent_chars": 2,
     "figure_toc_page_number_format": {
-      "comment": "upperRoman",
-      "sample": "arabic",
-      "status": "uncertain",
+      "format": "upperRoman",
+      "align": "right",
+      "status": "confirmed",
+      "source": "comment:21|使用者確認 2026-10-31",
       "rule_ids": [
         "R065"
-      ]
+      ],
+      "note": "範例檔阿拉伯數字非規格"
     },
     "table_toc_page_number_format": {
-      "comment": "upperRoman",
-      "sample": "arabic",
-      "status": "uncertain",
+      "format": "upperRoman",
+      "align": "right",
+      "status": "confirmed",
+      "source": "comment:24|使用者確認 2026-10-31",
       "rule_ids": [
         "R067"
-      ]
+      ],
+      "note": "範例檔阿拉伯數字非規格"
     }
   },
   "figures": {
@@ -594,10 +599,10 @@
     {
       "id": "R034",
       "category": "body",
-      "condition": "正文對齊（靠左 vs 左右）",
-      "source": "comment:27 vs comment:13",
-      "auto_checkable": false,
-      "status": "uncertain"
+      "condition": "正文左右對齊（justify/both）",
+      "source": "使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "status": "confirmed"
     },
     {
       "id": "R035",
@@ -754,10 +759,10 @@
     {
       "id": "R065",
       "category": "toc",
-      "condition": "圖目錄頁碼格式（註解羅馬 vs 範例阿拉伯）",
-      "source": "comment:21 vs sample",
-      "auto_checkable": false,
-      "status": "uncertain"
+      "condition": "圖目錄條目頁碼置右、大寫羅馬數字（upperRoman）",
+      "source": "comment:21|使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "status": "confirmed"
     },
     {
       "id": "R066",
@@ -770,10 +775,10 @@
     {
       "id": "R067",
       "category": "toc",
-      "condition": "表目錄頁碼格式（註解羅馬 vs 範例阿拉伯）",
-      "source": "comment:24 vs sample",
-      "auto_checkable": false,
-      "status": "uncertain"
+      "condition": "表目錄條目頁碼置右、大寫羅馬數字（upperRoman）",
+      "source": "comment:24|使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "status": "confirmed"
     },
     {
       "id": "R070",
@@ -1000,6 +1005,33 @@
       "status": "confirmed",
       "auto_check_note": "可檢查總頁數≥10；封面/目錄/附錄是否計入待確認",
       "page_count_scope_status": "uncertain"
+    },
+    {
+      "id": "R110",
+      "category": "structure",
+      "condition": "正文強制四章（章數=4；第一章～第四章；參考文獻/附錄不計）",
+      "source": "使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "status": "confirmed"
     }
-  ]
+  ],
+  "structure": {
+    "required_chapter_count": 4,
+    "chapter_pattern": "^第[一二三四1234]章",
+    "chapters_must_be_exactly": [
+      "第一章",
+      "第二章",
+      "第三章",
+      "第四章"
+    ],
+    "exclude_from_chapter_count": [
+      "參考文獻",
+      "附錄"
+    ],
+    "status": "confirmed",
+    "source": "使用者確認 2026-10-31",
+    "rule_ids": [
+      "R110"
+    ]
+  }
 }
