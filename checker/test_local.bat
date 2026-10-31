@@ -9,17 +9,17 @@ echo   本機測試伺服器啟動程式
 echo ========================================================
 echo.
 
-:: 取得專案根目錄路徑（checker 的上一層目錄）
+REM 取得專案根目錄路徑（checker 的上一層目錄）
 cd /d "%~dp0.."
 set "PROJECT_ROOT=%CD%"
 echo [目錄] 專案根目錄: %PROJECT_ROOT%
 
-:: 設定連接埠（預設 8765，若有傳入參數則使用自訂埠號）
+REM 設定連接埠（預設 8765，若有傳入參數則使用自訂埠號）
 set "PORT=8765"
 if not "%~1"=="" set "PORT=%~1"
 set "URL=http://localhost:%PORT%/checker/"
 
-:: 檢查 Python 執行環境
+REM 檢查 Python 執行環境
 set "PY_CMD="
 
 python -c "import sys" >nul 2>nul
@@ -56,10 +56,10 @@ echo   若要停止伺服器，請在此視窗按下 [Ctrl + C]。
 echo ========================================================
 echo.
 
-:: 自動開啟瀏覽器
+REM 自動開啟瀏覽器
 start "" "%URL%"
 
-:: 啟動 Python 內建 HTTP 伺服器
+REM 啟動 Python 內建 HTTP 伺服器
 %PY_CMD% -m http.server %PORT%
 
 if %errorlevel% neq 0 (
