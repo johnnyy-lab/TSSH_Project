@@ -415,10 +415,15 @@
   ],
   "limits": {
     "word_count": null,
-    "page_count": null,
-    "unlimited": true,
+    "word_count_unlimited": true,
+    "page_count_min": 10,
+    "page_count_max": null,
+    "page_count_unit": "pages",
+    "page_count_scope": "entire_document_total_pages",
+    "page_count_scope_note": "以整份文件總頁數計；封面／目錄／附錄是否計入尚待確認",
+    "page_count_scope_status": "uncertain",
     "applies_zhongxuesheng_essay_limits": false,
-    "note": "巨人高中自訂專題格式；字數與頁數無限制，不套用中學生小論文限制",
+    "note": "巨人高中自訂專題格式；字數不限；頁數≥10；不套用中學生小論文限制",
     "source": "使用者確認 2026-10-31",
     "status": "confirmed",
     "rule_ids": [
@@ -989,10 +994,12 @@
     {
       "id": "R109",
       "category": "structure",
-      "condition": "字數與頁數無限制；不套用中學生小論文限制（巨人高中自訂）",
+      "condition": "字數無限制；頁數至少10頁（≥10，暫以整份文件總頁數計；計算範圍待確認）；不套用中學生小論文限制",
       "source": "使用者確認 2026-10-31",
-      "auto_checkable": true,
-      "status": "confirmed"
+      "auto_checkable": "partial",
+      "status": "confirmed",
+      "auto_check_note": "可檢查總頁數≥10；封面/目錄/附錄是否計入待確認",
+      "page_count_scope_status": "uncertain"
     }
   ]
 }
