@@ -3,1728 +3,58 @@
   "title": "巨人高中專題實作報告格式規格",
   "source_docx": "巨人高中專題格式.docx",
   "locale": "zh-TW",
-  "extracted_at_note": "Rules from Word comments/textboxes/body/sample; user confirmations 2026-10-31. IDs renumbered by section (R000+/R100+/…). Each rule keeps old_id. full_document_only rules need the whole file.",
-  "page": {
-    "size_cm": [
-      21.0,
-      29.7
-    ],
-    "orientation": "portrait",
-    "margins_cm_required": {
-      "top": 2.54,
-      "bottom": 2.54,
-      "left": 3.17,
-      "right": 3.17,
-      "gutter": 0,
-      "applies_to": "all_sections",
-      "source": "comment:0|textbox|使用者確認 2026-10-31",
-      "rule_ids": [
-        "R000",
-        "R001",
-        "R003"
-      ]
-    },
-    "margins_cm_observed_body_sections": {
-      "top": 3.2,
-      "bottom": 2.5,
-      "left": 2.5,
-      "right": 2.5,
-      "gutter": 1.3,
-      "source": "sectPr sections 3-4",
-      "rule_ids": [
-        "R002"
-      ],
-      "status": "non_normative_sample_deviation",
-      "note": "否決為規格；交件須符合 margins_cm_required"
-    },
-    "page_numbering": {
-      "front_matter": {
-        "format": "upperRoman",
-        "source": "sectPr|footer",
-        "rule_ids": [
-          "R042",
-          "R044"
-        ]
-      },
-      "body": {
-        "format": "arabic",
-        "start_observed": 1,
-        "source": "sectPr|comment",
-        "rule_ids": [
-          "R043"
-        ]
-      }
-    }
-  },
-  "fonts": {
-    "eastAsia_required": "標楷體",
-    "ascii_required": "Times New Roman",
-    "docDefaults_observed": {
-      "ascii": "Times New Roman",
-      "eastAsia": "新細明體",
-      "source": "styles.xml docDefaults",
-      "rule_ids": [
-        "R018"
-      ]
-    },
-    "rule_ids": [
-      "R016",
-      "R017"
-    ]
-  },
-  "cover": {
-    "school_name": {
-      "text_example": "巨人高級中學",
-      "font_eastAsia": "標楷體",
-      "size_pt": 26,
-      "align": "center",
-      "rule_ids": [
-        "R004"
-      ]
-    },
-    "report_label": {
-      "size_pt": 26,
-      "align": "center",
-      "blank_lines_before_title": 2,
-      "blank_line_size_pt": 12,
-      "rule_ids": [
-        "R005",
-        "R006"
-      ]
-    },
-    "title": {
-      "font_eastAsia": "標楷體",
-      "size_pt": 20,
-      "align": "center",
-      "blank_lines_before_class_block": 2,
-      "rule_ids": [
-        "R008",
-        "R009"
-      ]
-    },
-    "meta_table": {
-      "fields": [
-        "班級",
-        "製作學生",
-        "指導老師"
-      ],
-      "size_pt": 16,
-      "via": "table",
-      "rule_ids": [
-        "R010",
-        "R011"
-      ]
-    },
-    "date": {
-      "size_pt": 20,
-      "align": "distribute",
-      "rule_ids": [
-        "R012"
-      ]
-    },
-    "signature_page": {
-      "oral_examiners": 2,
-      "advisors": 1,
-      "label_size_pt": 16,
-      "rule_ids": [
-        "R013",
-        "R014",
-        "R015"
-      ]
-    }
-  },
-  "abstract": {
-    "heading": {
-      "text": "摘要",
-      "size_pt": 18,
-      "align": "center",
-      "line_spacing": 1.5,
-      "no_blank_before_body": true,
-      "rule_ids": [
-        "R031"
-      ]
-    },
-    "body": {
-      "size_pt": 12,
-      "align": "both",
-      "first_line_indent_chars": 2,
-      "line_spacing": 1.5,
-      "no_blank_between_paragraphs": true,
-      "rule_ids": [
-        "R032"
-      ]
-    },
-    "keywords": {
-      "count_min": 3,
-      "count_max": 5,
-      "blank_lines_after_abstract": 1,
-      "size_pt": 12,
-      "line_spacing": 1.5,
-      "align": "left",
-      "indent_chars": 0,
-      "rule_ids": [
-        "R033"
-      ]
-    }
-  },
-  "body": {
-    "size_pt": 12,
-    "line_spacing": 1.5,
-    "first_line_indent_chars": 2,
-    "no_blank_between_paragraphs": true,
-    "align": {
-      "value": "both",
-      "aka": "justify",
-      "status": "confirmed",
-      "source": "使用者確認 2026-10-31",
-      "rule_ids": [
-        "R020"
-      ],
-      "note": "原註解「考左對齊」作廢；摘要標題區對齊規則仍見 abstract.body.align"
-    },
-    "direct_quote": {
-      "bold": true,
-      "quotes": true,
-      "max_chars_excluding_punctuation": 50,
-      "rule_ids": [
-        "R021"
-      ]
-    },
-    "must_cite_sources_in_text_and_references": {
-      "rule_ids": [
-        "R022"
-      ],
-      "auto_checkable": false
-    }
-  },
-  "headings": {
-    "hierarchy": [
-      "第○章",
-      "1-1",
-      "一、",
-      "（一）",
-      "1.",
-      "（1）"
-    ],
-    "hierarchy_source": "body callout",
-    "chapter": {
-      "pattern": "^第.+章",
-      "size_pt": 16,
-      "bold": true,
-      "align": "center",
-      "line_spacing": 2.0,
-      "no_blank_before_section": true,
-      "rule_ids": [
-        "R025",
-        "R026"
-      ]
-    },
-    "section": {
-      "pattern": "^\\d+-\\d+",
-      "size_pt": 14,
-      "bold": true,
-      "align": "left",
-      "indent_chars": 0,
-      "line_spacing": 1.5,
-      "no_blank_before_body": true,
-      "rule_ids": [
-        "R027"
-      ]
-    },
-    "deeper_levels": {
-      "size_pt": 12,
-      "indents_chars": {
-        "一、": 1.5,
-        "（一）": 2.5,
-        "1.": 3,
-        "（1）": 4
-      },
-      "rule_ids": [
-        "R023",
-        "R028"
-      ]
-    },
-    "reference_heading": {
-      "text": "參考文獻",
-      "is_chapter": false,
-      "align": "left",
-      "size_pt": 14,
-      "bold": true,
-      "line_spacing": 1.5,
-      "rule_ids": [
-        "R500"
-      ]
-    },
-    "appendix_heading": {
-      "text": "附錄",
-      "is_chapter": false,
-      "align": "left",
-      "indent_chars": 0,
-      "rule_ids": [
-        "R030"
-      ]
-    }
-  },
-  "toc": {
-    "heading": {
-      "size_pt": 16,
-      "align": "center",
-      "line_spacing": 1.5,
-      "rule_ids": [
-        "R034"
-      ]
-    },
-    "entries": {
-      "size_pt": 12,
-      "line_spacing": 1.5,
-      "page_number_align": "right",
-      "rule_ids": [
-        "R035"
-      ]
-    },
-    "chapter_page_numbers": "arabic",
-    "section_indent_chars": 2,
-    "figure_toc_page_number_format": {
-      "format": "upperRoman",
-      "align": "right",
-      "status": "confirmed",
-      "source": "comment:21|使用者確認 2026-10-31",
-      "rule_ids": [
-        "R039"
-      ],
-      "note": "範例檔阿拉伯數字非規格"
-    },
-    "table_toc_page_number_format": {
-      "format": "upperRoman",
-      "align": "right",
-      "status": "confirmed",
-      "source": "comment:24|使用者確認 2026-10-31",
-      "rule_ids": [
-        "R041"
-      ],
-      "note": "範例檔阿拉伯數字非規格"
-    }
-  },
-  "figures": {
-    "id_pattern": "圖{chapter}-{n}",
-    "image_align": "center",
-    "caption_position": "below",
-    "caption_align": "center",
-    "caption_size_pt": 12,
-    "line_spacing": 1.5,
-    "no_blank_between_image_and_caption": true,
-    "max_page_area_fraction": 0.25,
-    "must_appear_in_figure_toc": true,
-    "source_line": {
-      "position": "below_caption",
-      "align": "center",
-      "parentheses": true
-    },
-    "rule_ids": [
-      "R045",
-      "R046",
-      "R047",
-      "R048",
-      "R049"
-    ]
-  },
-  "tables": {
-    "id_pattern": "表{chapter}-{n}",
-    "table_align": "center",
-    "caption_position": "above",
-    "caption_align": "left",
-    "caption_size_pt": 12,
-    "line_spacing": 1.5,
-    "no_blank_between_caption_and_table": true,
-    "must_appear_in_table_toc": true,
-    "source_line": {
-      "position": "below_table",
-      "parentheses": true
-    },
-    "rule_ids": [
-      "R050",
-      "R051",
-      "R052",
-      "R053",
-      "R054"
-    ]
-  },
-  "citations": {
-    "in_text_en": [
-      "Surname (year)",
-      "(Surname, year)"
-    ],
-    "in_text_zh": [
-      "姓名（年代）",
-      "（姓名，年代）"
-    ],
-    "figure_table_source_journal": "資料來源：作者（年代）。「文章名稱」。期刊名稱，期別，頁碼。",
-    "figure_table_source_book": "資料來源：作者（年代）。書名（頁碼）。出版地：出版者。",
-    "non_cited_labels": [
-      "研究者繪製",
-      "研究者整理",
-      "研究者拍攝"
-    ],
-    "rule_ids": [
-      "R055",
-      "R056",
-      "R057",
-      "R058",
-      "R059"
-    ]
-  },
-  "references": {
-    "hanging_indent_chars": 2,
-    "size_pt": 12,
-    "line_spacing": 1.5,
-    "no_blank_between_entries": true,
-    "align": "left",
-    "style_external": "中學生網站 APA 小論文引注格式範例",
-    "min_print_sources": 3,
-    "forbid": [
-      "論壇",
-      "問答網站",
-      "聊天網站",
-      "不具公信力內容"
-    ],
-    "order": [
-      "zh_by_stroke",
-      "en_by_surname_alpha"
-    ],
-    "url_shortener_allowed": true,
-    "web_template": "作者（西洋年）。篇名。擷取日期，取自網址。",
-    "rule_ids": [
-      "R501",
-      "R502",
-      "R503",
-      "R504",
-      "R505",
-      "R506",
-      "R507",
-      "R508"
-    ]
-  },
-  "structure_example_order": [
-    "封面內頁",
-    "簽名頁",
-    "摘要",
-    "目錄",
-    "圖目錄",
-    "表目錄",
-    "第一章 緒論",
-    "第二章 文獻探討",
-    "第三章 專題成果",
-    "第四章 結論與建議",
-    "參考文獻",
-    "附錄"
+  "comment_count": 35,
+  "comment_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    34,
+    35,
+    36,
+    37,
+    38
   ],
-  "limits": {
-    "word_count": null,
-    "word_count_unlimited": true,
-    "page_count_min": 10,
-    "page_count_max": null,
-    "page_count_unit": "pages",
-    "page_count_scope": "entire_document_including_cover_toc_appendix",
-    "page_count_scope_note": "整份文件總頁數（含封面、目錄、圖表目錄、正文、參考文獻、附錄）≥10",
-    "page_count_scope_status": "confirmed",
-    "applies_zhongxuesheng_essay_limits": false,
-    "note": "巨人高中自訂；字數不限；頁數≥10（整份文件）",
-    "source": "使用者確認 2026-10-31",
-    "status": "confirmed",
-    "rule_ids": [
-      "R060"
-    ]
-  },
-  "rules": [
-    {
-      "id": "R000",
-      "category": "page",
-      "condition": "紙張 21.0×29.7 cm（A4）直式",
-      "source": "sectPr",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4",
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R001"
-    },
-    {
-      "id": "R001",
-      "category": "page",
-      "condition": "所有節邊界上/下 2.54 cm、左/右 3.17 cm、gutter=0",
-      "source": "comment:0|textbox|使用者確認 2026-10-31",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4",
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R002"
-    },
-    {
-      "id": "R002",
-      "category": "page",
-      "condition": "原始 docx 正文節實測邊界/gutter 偏差（非規格）",
-      "source": "sectPr|使用者確認否決 2026-10-31",
-      "auto_checkable": true,
-      "status": "non_normative_sample_deviation",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": false,
-      "old_id": "R003"
-    },
-    {
-      "id": "R003",
-      "category": "page",
-      "condition": "邊界以 R002 為唯一規格（已決議）",
-      "source": "使用者確認 2026-10-31",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4",
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R004"
-    },
-    {
-      "id": "R004",
-      "category": "cover",
-      "condition": "校名標楷體 26pt 置中",
-      "source": "comment:1",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R010"
-    },
-    {
-      "id": "R005",
-      "category": "cover",
-      "condition": "專題實作報告標 26pt 置中",
-      "source": "comment:2",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R011"
-    },
-    {
-      "id": "R006",
-      "category": "cover",
-      "condition": "校名與報告標題間空 2 行（12pt）",
-      "source": "comment:1",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R012"
-    },
-    {
-      "id": "R007",
-      "category": "cover",
-      "condition": "報告標題與題目間空 2 行（12pt）",
-      "source": "comment:2",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R013"
-    },
-    {
-      "id": "R008",
-      "category": "cover",
-      "condition": "題目標楷體 20pt 置中",
-      "source": "comment:3",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R014"
-    },
-    {
-      "id": "R009",
-      "category": "cover",
-      "condition": "題目與班級區間空 2 行",
-      "source": "comment:3",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R015"
-    },
-    {
-      "id": "R010",
-      "category": "cover",
-      "condition": "班級/學生/老師以表格、16pt",
-      "source": "comment:4",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R016"
-    },
-    {
-      "id": "R011",
-      "category": "cover",
-      "condition": "封面欄位含班級、製作學生、指導老師",
-      "source": "body",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R017"
-    },
-    {
-      "id": "R012",
-      "category": "cover",
-      "condition": "日期 20pt 分散對齊",
-      "source": "comment:5",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R018"
-    },
-    {
-      "id": "R013",
-      "category": "cover",
-      "condition": "簽名頁含校名/報告名/題目",
-      "source": "comment:6-8",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R020"
-    },
-    {
-      "id": "R014",
-      "category": "cover",
-      "condition": "口試委員2、指導老師1、16pt 標楷體",
-      "source": "comment:9",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R021"
-    },
-    {
-      "id": "R015",
-      "category": "cover",
-      "condition": "簽名頁日期 20pt 分散對齊",
-      "source": "comment:10",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R022"
-    },
-    {
-      "id": "R016",
-      "category": "typography",
-      "condition": "中文 eastAsia=標楷體",
-      "source": "comment",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4",
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R030"
-    },
-    {
-      "id": "R017",
-      "category": "typography",
-      "condition": "英文/數字=Times New Roman",
-      "source": "comment",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4",
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R031"
-    },
-    {
-      "id": "R018",
-      "category": "typography",
-      "condition": "docDefaults eastAsia 實測為新細明體，交件須覆寫",
-      "source": "style",
-      "auto_checkable": true,
-      "status": "observed_sample",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4",
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R032"
-    },
-    {
-      "id": "R019",
-      "category": "body",
-      "condition": "內文12pt、首行縮排2字、1.5倍、段間不空行",
-      "source": "comment:27",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R033"
-    },
-    {
-      "id": "R020",
-      "category": "body",
-      "condition": "正文左右對齊（justify/both）",
-      "source": "使用者確認 2026-10-31",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R034"
-    },
-    {
-      "id": "R021",
-      "category": "body",
-      "condition": "直接引用粗體+引號、≤50字不含標點",
-      "source": "comment:27",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R035"
-    },
-    {
-      "id": "R022",
-      "category": "body",
-      "condition": "引用須標作者年代並列入參考文獻",
-      "source": "comment:27",
-      "auto_checkable": false,
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R036"
-    },
-    {
-      "id": "R023",
-      "category": "heading",
-      "condition": "層次：第○章/1-1/一、/（一）/1./（1）",
-      "source": "body",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R040"
-    },
-    {
-      "id": "R024",
-      "category": "heading",
-      "condition": "一般分到第四層即可",
-      "source": "body",
-      "auto_checkable": false,
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R041"
-    },
-    {
-      "id": "R025",
-      "category": "heading",
-      "condition": "章16pt粗體置中",
-      "source": "comment:25",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R042"
-    },
-    {
-      "id": "R026",
-      "category": "heading",
-      "condition": "章行距2倍、與節不空行",
-      "source": "comment:25",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R043"
-    },
-    {
-      "id": "R027",
-      "category": "heading",
-      "condition": "節1-1、14pt粗體靠左不縮排、1.5倍",
-      "source": "comment:26",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R044"
-    },
-    {
-      "id": "R028",
-      "category": "heading",
-      "condition": "更深層12pt；縮排1.5/2.5/3/4字元",
-      "source": "body",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R045"
-    },
-    {
-      "id": "R029",
-      "category": "heading",
-      "condition": "編碼框稱標題1.5倍；章以R043的2倍為準",
-      "source": "body|comment:25",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R046"
-    },
-    {
-      "id": "R030",
-      "category": "heading",
-      "condition": "附錄非章節、目錄靠左不縮排",
-      "source": "comment:18",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R048"
-    },
-    {
-      "id": "R031",
-      "category": "structure",
-      "condition": "摘要標題18pt置中1.5倍、與內文不空行",
-      "source": "comment:12",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R050"
-    },
-    {
-      "id": "R032",
-      "category": "structure",
-      "condition": "摘要內文12pt左右對齊首行2字1.5倍",
-      "source": "comment:13",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R051"
-    },
-    {
-      "id": "R033",
-      "category": "structure",
-      "condition": "關鍵詞3–5個、與摘要空1行、12pt靠左",
-      "source": "comment:14",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R052"
-    },
-    {
-      "id": "R034",
-      "category": "toc",
-      "condition": "目錄標題16pt置中1.5倍",
-      "source": "comment:15",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R060"
-    },
-    {
-      "id": "R035",
-      "category": "toc",
-      "condition": "目錄章條目12pt、頁碼右、阿拉伯數字",
-      "source": "comment:16",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R061"
-    },
-    {
-      "id": "R036",
-      "category": "toc",
-      "condition": "目錄節縮排2字、頁碼阿拉伯數字",
-      "source": "comment:17",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R062"
-    },
-    {
-      "id": "R037",
-      "category": "toc",
-      "condition": "參考文獻/附錄在目錄靠左不縮排且有頁碼",
-      "source": "comment:18",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R063"
-    },
-    {
-      "id": "R038",
-      "category": "toc",
-      "condition": "圖目錄標題16pt置中1.5倍",
-      "source": "comment:20",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R064"
-    },
-    {
-      "id": "R039",
-      "category": "toc",
-      "condition": "圖目錄條目頁碼置右、大寫羅馬數字（upperRoman）",
-      "source": "comment:21|使用者確認 2026-10-31",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R065"
-    },
-    {
-      "id": "R040",
-      "category": "toc",
-      "condition": "表目錄標題16pt置中1.5倍",
-      "source": "comment:23",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R066"
-    },
-    {
-      "id": "R041",
-      "category": "toc",
-      "condition": "表目錄條目頁碼置右、大寫羅馬數字（upperRoman）",
-      "source": "comment:24|使用者確認 2026-10-31",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R067"
-    },
-    {
-      "id": "R042",
-      "category": "page",
-      "condition": "前頁頁碼 upperRoman",
-      "source": "sectPr|footer",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R070"
-    },
-    {
-      "id": "R043",
-      "category": "page",
-      "condition": "正文頁碼阿拉伯數字",
-      "source": "sectPr|comment",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R071"
-    },
-    {
-      "id": "R044",
-      "category": "page",
-      "condition": "目錄前頁碼範例 III–VI",
-      "source": "body",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R072"
-    },
-    {
-      "id": "R045",
-      "category": "figure",
-      "condition": "圖編號 章-號 + 標題",
-      "source": "comment:34",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R080"
-    },
-    {
-      "id": "R046",
-      "category": "figure",
-      "condition": "圖置中、圖名下方置中12pt1.5倍",
-      "source": "comment:34",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R081"
-    },
-    {
-      "id": "R047",
-      "category": "figure",
-      "condition": "圖面積 ≤ 頁面1/4",
-      "source": "comment:34",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R082"
-    },
-    {
-      "id": "R048",
-      "category": "figure",
-      "condition": "有圖必入圖目錄",
-      "source": "comment:34",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R083"
-    },
-    {
-      "id": "R049",
-      "category": "figure",
-      "condition": "圖資料來源置中加括號",
-      "source": "comment:35",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R084"
-    },
-    {
-      "id": "R050",
-      "category": "table",
-      "condition": "表編號 章-號 + 標題",
-      "source": "comment:30",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R085"
-    },
-    {
-      "id": "R051",
-      "category": "table",
-      "condition": "表名上方靠左12pt1.5倍",
-      "source": "comment:30",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R086"
-    },
-    {
-      "id": "R052",
-      "category": "table",
-      "condition": "表格頁面置中",
-      "source": "comment:31",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R087"
-    },
-    {
-      "id": "R053",
-      "category": "table",
-      "condition": "有表必入表目錄",
-      "source": "comment:30",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R088"
-    },
-    {
-      "id": "R054",
-      "category": "table",
-      "condition": "表資料來源下方加括號",
-      "source": "comment:32",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R089"
-    },
-    {
-      "id": "R055",
-      "category": "citation",
-      "condition": "圖表期刊資料來源格式",
-      "source": "comment:32|35",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R090"
-    },
-    {
-      "id": "R056",
-      "category": "citation",
-      "condition": "圖表書籍資料來源格式",
-      "source": "comment:32|35",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R091"
-    },
-    {
-      "id": "R057",
-      "category": "citation",
-      "condition": "非引用可註研究者繪製等",
-      "source": "comment:35",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R092"
-    },
-    {
-      "id": "R058",
-      "category": "citation",
-      "condition": "英文正文引註格式",
-      "source": "comment:29",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R093"
-    },
-    {
-      "id": "R059",
-      "category": "citation",
-      "condition": "中文正文引註格式",
-      "source": "comment:29",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global",
-        "ch1",
-        "ch2",
-        "ch3",
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R094"
-    },
-    {
-      "id": "R060",
-      "category": "structure",
-      "condition": "字數無限制；整份文件總頁數（含封面、目錄、圖表目錄、正文、參考文獻、附錄）≥10；不套用中學生小論文限制",
-      "source": "使用者確認 2026-10-31",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "auto_check_note": "以整份文件總頁數計（含封面、目錄、附錄）",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R109"
-    },
-    {
-      "id": "R061",
-      "category": "structure",
-      "condition": "正文強制四章（章數=4；第一章～第四章；參考文獻/附錄不計）",
-      "source": "使用者確認 2026-10-31",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "section": "global",
-      "applies_to": [
-        "global"
-      ],
-      "full_document_only": true,
-      "old_id": "R110"
-    },
-    {
-      "id": "R100",
-      "category": "structure",
-      "condition": "第一章標題為「緒論」（註解目錄寫法「第一章 緒論」；範例同）",
-      "source": "comment:16|sample",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "section": "ch1",
-      "applies_to": [
-        "ch1"
-      ],
-      "full_document_only": false,
-      "old_id": "R111"
-    },
-    {
-      "id": "R101",
-      "category": "structure",
-      "condition": "第一章範例節：1-1 研究動機、1-2 研究目的、1-3 研究方法、1-4 研究流程（出自範例目錄／正文；註解未強制節名）",
-      "source": "sample TOC/body",
-      "auto_checkable": "partial",
-      "status": "sample_example",
-      "note": "建議／範例結構，非註解明文強制",
-      "section": "ch1",
-      "applies_to": [
-        "ch1"
-      ],
-      "full_document_only": false,
-      "old_id": "R112"
-    },
-    {
-      "id": "R200",
-      "category": "structure",
-      "condition": "第二章標題為「文獻探討」（範例目錄／正文）",
-      "source": "sample TOC/body",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "note": "註解以「第一章 緒論」～「第四章 結論」示章之寫法；中間章名取自範例",
-      "section": "ch2",
-      "applies_to": [
-        "ch2"
-      ],
-      "full_document_only": false,
-      "old_id": "R113"
-    },
-    {
-      "id": "R300",
-      "category": "structure",
-      "condition": "第三章標題為「專題成果」（範例目錄／正文）",
-      "source": "sample TOC/body",
-      "auto_checkable": true,
-      "status": "confirmed",
-      "section": "ch3",
-      "applies_to": [
-        "ch3"
-      ],
-      "full_document_only": false,
-      "old_id": "R114"
-    },
-    {
-      "id": "R400",
-      "category": "structure",
-      "condition": "結論內容指引",
-      "source": "comment:36",
-      "auto_checkable": false,
-      "status": "confirmed",
-      "section": "ch4",
-      "applies_to": [
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R100"
-    },
-    {
-      "id": "R401",
-      "category": "structure",
-      "condition": "第四章標題為「結論」或範例「結論與建議」（註解目錄寫「第四章 結論」；範例作「結論與建議」）",
-      "source": "comment:16|sample",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "ch4",
-      "applies_to": [
-        "ch4"
-      ],
-      "full_document_only": false,
-      "old_id": "R115"
-    },
-    {
-      "id": "R500",
-      "category": "heading",
-      "condition": "參考文獻標題14pt粗體靠左1.5倍",
-      "source": "comment:37",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "references",
-      "applies_to": [
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R047"
-    },
-    {
-      "id": "R501",
-      "category": "reference",
-      "condition": "文獻凸排2字、12pt、1.5倍、不空行",
-      "source": "comment:38",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "references",
-      "applies_to": [
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R101"
-    },
-    {
-      "id": "R502",
-      "category": "reference",
-      "condition": "依中學生網站 APA",
-      "source": "comment:38",
-      "auto_checkable": false,
-      "status": "confirmed",
-      "section": "references",
-      "applies_to": [
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R102"
-    },
-    {
-      "id": "R503",
-      "category": "reference",
-      "condition": "紙本文獻≥3篇",
-      "source": "comment:38",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "references",
-      "applies_to": [
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R103"
-    },
-    {
-      "id": "R504",
-      "category": "reference",
-      "condition": "禁論壇/問答/聊天等",
-      "source": "comment:38",
-      "auto_checkable": false,
-      "status": "confirmed",
-      "section": "references",
-      "applies_to": [
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R104"
-    },
-    {
-      "id": "R505",
-      "category": "reference",
-      "condition": "允許網址縮短器",
-      "source": "comment:38",
-      "auto_checkable": false,
-      "status": "confirmed",
-      "section": "references",
-      "applies_to": [
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R105"
-    },
-    {
-      "id": "R506",
-      "category": "reference",
-      "condition": "網路資源引註模板",
-      "source": "comment:38",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "references",
-      "applies_to": [
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R106"
-    },
-    {
-      "id": "R507",
-      "category": "reference",
-      "condition": "中文在前英文在後；筆畫/字母排序",
-      "source": "comment:38",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "references",
-      "applies_to": [
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R107"
-    },
-    {
-      "id": "R508",
-      "category": "reference",
-      "condition": "網路/書籍/期刊書寫提示",
-      "source": "comment:38",
-      "auto_checkable": "partial",
-      "status": "confirmed",
-      "section": "references",
-      "applies_to": [
-        "references"
-      ],
-      "full_document_only": false,
-      "old_id": "R108"
-    }
-  ],
-  "structure": {
-    "required_chapter_count": 4,
-    "chapters": [
-      {
-        "section": "ch1",
-        "number": 1,
-        "title": "緒論",
-        "rule_ids": [
-          "R100",
-          "R101"
-        ]
-      },
-      {
-        "section": "ch2",
-        "number": 2,
-        "title": "文獻探討",
-        "rule_ids": [
-          "R200"
-        ]
-      },
-      {
-        "section": "ch3",
-        "number": 3,
-        "title": "專題成果",
-        "rule_ids": [
-          "R300"
-        ]
-      },
-      {
-        "section": "ch4",
-        "number": 4,
-        "title": "結論",
-        "title_sample_alt": "結論與建議",
-        "rule_ids": [
-          "R401",
-          "R400"
-        ]
-      }
-    ],
-    "status": "confirmed",
-    "source": "comment:16|sample|使用者確認 2026-10-31",
-    "rule_ids": [
-      "R061",
-      "R100",
-      "R101",
-      "R200",
-      "R300",
-      "R400",
-      "R401"
-    ]
-  },
-  "organization": {
-    "purpose": "學生可完成一章後只測該章格式；規則按組分段編號",
-    "section_ids": [
-      "global",
-      "ch1",
-      "ch2",
-      "ch3",
-      "ch4",
-      "references"
-    ],
-    "id_scheme": {
-      "global": "R000–R099",
-      "ch1": "R100–R199",
-      "ch2": "R200–R299",
-      "ch3": "R300–R399",
-      "ch4": "R400–R499",
-      "references": "R500–R599",
-      "note": "各組從該區段開頭連續編號；每條含 old_id 對照舊編號"
-    },
-    "filter_hint": "依 rules[].section 或 sections[id].rule_ids 篩選；測章時另併 inherit_global_rule_ids，排除 full_document_only=true"
+  "extracted_at_note": "Atomic rules split from 35 Word comments + body callout + user confirmations 2026-10-31. Sections include front_matter R600+.",
+  "id_scheme": {
+    "global": "R000–R099",
+    "ch1": "R100–R199",
+    "ch2": "R200–R299",
+    "ch3": "R300–R399",
+    "ch4": "R400–R499",
+    "references": "R500–R599",
+    "front_matter": "R600–R699"
   },
   "sections": {
     "global": {
       "id": "global",
       "title": "全文類",
-      "title_zh": "全文類（封面、摘要、目錄／圖表目錄、版面、字型、頁碼、章節編號、圖表、引註等）",
       "id_range": "R000–R099",
       "rule_ids": [
         "R000",
@@ -1788,41 +118,28 @@
         "R058",
         "R059",
         "R060",
-        "R061"
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R066",
+        "R067",
+        "R068",
+        "R069",
+        "R070",
+        "R071",
+        "R072"
       ],
       "full_document_only_rule_ids": [
-        "R004",
-        "R005",
-        "R006",
-        "R007",
-        "R008",
-        "R009",
-        "R010",
-        "R011",
-        "R012",
-        "R013",
-        "R014",
-        "R015",
-        "R030",
-        "R031",
-        "R032",
-        "R033",
-        "R034",
-        "R035",
-        "R036",
-        "R037",
-        "R038",
-        "R039",
-        "R040",
-        "R041",
-        "R042",
-        "R044",
-        "R048",
-        "R053",
-        "R060",
-        "R061"
+        "R020",
+        "R050",
+        "R066",
+        "R070",
+        "R071",
+        "R072"
       ],
-      "description": "通用規則。標 full_document_only 者需整份文件才檢查。編號 R000 起連續。"
+      "description": "每一章都適用的規則；另含整份文件才查的頁數≥10、強制四章（full_document_only）。"
     },
     "ch1": {
       "id": "ch1",
@@ -1837,12 +154,24 @@
       "inherit_global_rule_ids": [
         "R000",
         "R001",
+        "R002",
         "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
         "R016",
         "R017",
         "R018",
         "R019",
-        "R020",
         "R021",
         "R022",
         "R023",
@@ -1852,22 +181,45 @@
         "R027",
         "R028",
         "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
         "R043",
+        "R044",
         "R045",
         "R046",
         "R047",
+        "R048",
         "R049",
-        "R050",
         "R051",
         "R052",
+        "R053",
         "R054",
         "R055",
         "R056",
         "R057",
         "R058",
-        "R059"
-      ],
-      "description": "測第一章（緒論）時：套用本章 rule_ids + inherit_global_rule_ids；勿套用 full_document_only。"
+        "R059",
+        "R060",
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R067",
+        "R068",
+        "R069"
+      ]
     },
     "ch2": {
       "id": "ch2",
@@ -1881,12 +233,24 @@
       "inherit_global_rule_ids": [
         "R000",
         "R001",
+        "R002",
         "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
         "R016",
         "R017",
         "R018",
         "R019",
-        "R020",
         "R021",
         "R022",
         "R023",
@@ -1896,22 +260,45 @@
         "R027",
         "R028",
         "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
         "R043",
+        "R044",
         "R045",
         "R046",
         "R047",
+        "R048",
         "R049",
-        "R050",
         "R051",
         "R052",
+        "R053",
         "R054",
         "R055",
         "R056",
         "R057",
         "R058",
-        "R059"
-      ],
-      "description": "測第二章（文獻探討）時：套用本章 rule_ids + inherit_global_rule_ids；勿套用 full_document_only。"
+        "R059",
+        "R060",
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R067",
+        "R068",
+        "R069"
+      ]
     },
     "ch3": {
       "id": "ch3",
@@ -1925,12 +312,24 @@
       "inherit_global_rule_ids": [
         "R000",
         "R001",
+        "R002",
         "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
         "R016",
         "R017",
         "R018",
         "R019",
-        "R020",
         "R021",
         "R022",
         "R023",
@@ -1940,22 +339,45 @@
         "R027",
         "R028",
         "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
         "R043",
+        "R044",
         "R045",
         "R046",
         "R047",
+        "R048",
         "R049",
-        "R050",
         "R051",
         "R052",
+        "R053",
         "R054",
         "R055",
         "R056",
         "R057",
         "R058",
-        "R059"
-      ],
-      "description": "測第三章（專題成果）時：套用本章 rule_ids + inherit_global_rule_ids；勿套用 full_document_only。"
+        "R059",
+        "R060",
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R067",
+        "R068",
+        "R069"
+      ]
     },
     "ch4": {
       "id": "ch4",
@@ -1970,12 +392,24 @@
       "inherit_global_rule_ids": [
         "R000",
         "R001",
+        "R002",
         "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
         "R016",
         "R017",
         "R018",
         "R019",
-        "R020",
         "R021",
         "R022",
         "R023",
@@ -1985,22 +419,45 @@
         "R027",
         "R028",
         "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
         "R043",
+        "R044",
         "R045",
         "R046",
         "R047",
+        "R048",
         "R049",
-        "R050",
         "R051",
         "R052",
+        "R053",
         "R054",
         "R055",
         "R056",
         "R057",
         "R058",
-        "R059"
+        "R059",
+        "R060",
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R067",
+        "R068",
+        "R069"
       ],
-      "description": "測第四章（結論）時：套用本章 rule_ids + inherit_global_rule_ids；勿套用 full_document_only。",
       "chapter_title_sample_alt": "結論與建議"
     },
     "references": {
@@ -2016,845 +473,4264 @@
         "R505",
         "R506",
         "R507",
-        "R508"
+        "R508",
+        "R509",
+        "R510",
+        "R511",
+        "R512",
+        "R513",
+        "R514",
+        "R515",
+        "R516"
       ],
       "inherit_global_rule_ids": [
         "R000",
         "R001",
+        "R002",
         "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010"
+      ]
+    },
+    "front_matter": {
+      "id": "front_matter",
+      "title": "封面目錄類",
+      "id_range": "R600–R699",
+      "rule_ids": [
+        "R600",
+        "R601",
+        "R602",
+        "R603",
+        "R604",
+        "R605",
+        "R606",
+        "R607",
+        "R608",
+        "R609",
+        "R610",
+        "R611",
+        "R612",
+        "R613",
+        "R614",
+        "R615",
+        "R616",
+        "R617",
+        "R618",
+        "R619",
+        "R620",
+        "R621",
+        "R622",
+        "R623",
+        "R624",
+        "R625",
+        "R626",
+        "R627",
+        "R628",
+        "R629",
+        "R630",
+        "R631",
+        "R632",
+        "R633",
+        "R634",
+        "R635",
+        "R636",
+        "R637",
+        "R638",
+        "R639",
+        "R640",
+        "R641",
+        "R642",
+        "R643",
+        "R644",
+        "R645",
+        "R646",
+        "R647",
+        "R648",
+        "R649",
+        "R650",
+        "R651",
+        "R652",
+        "R653",
+        "R654",
+        "R655",
+        "R656",
+        "R657"
+      ],
+      "description": "封面、簽名頁、摘要、目錄、圖／表目錄、前頁羅馬頁碼等。"
+    }
+  },
+  "submission_profiles": {
+    "chapter_1": {
+      "label": "第1章",
+      "sections": [
+        "ch1",
+        "global"
+      ],
+      "rule_ids": [
+        "R100",
+        "R101",
+        "R000",
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R017",
+        "R018",
+        "R019",
+        "R021",
+        "R022",
+        "R023",
+        "R024",
+        "R025",
+        "R026",
+        "R027",
+        "R028",
+        "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R047",
+        "R048",
+        "R049",
+        "R051",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056",
+        "R057",
+        "R058",
+        "R059",
+        "R060",
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R067",
+        "R068",
+        "R069"
+      ],
+      "exclude_full_document_only": true
+    },
+    "chapter_2": {
+      "label": "第2章",
+      "sections": [
+        "ch2",
+        "global"
+      ],
+      "rule_ids": [
+        "R200",
+        "R000",
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R017",
+        "R018",
+        "R019",
+        "R021",
+        "R022",
+        "R023",
+        "R024",
+        "R025",
+        "R026",
+        "R027",
+        "R028",
+        "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R047",
+        "R048",
+        "R049",
+        "R051",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056",
+        "R057",
+        "R058",
+        "R059",
+        "R060",
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R067",
+        "R068",
+        "R069"
+      ],
+      "exclude_full_document_only": true
+    },
+    "chapter_3": {
+      "label": "第3章",
+      "sections": [
+        "ch3",
+        "global"
+      ],
+      "rule_ids": [
+        "R300",
+        "R000",
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R017",
+        "R018",
+        "R019",
+        "R021",
+        "R022",
+        "R023",
+        "R024",
+        "R025",
+        "R026",
+        "R027",
+        "R028",
+        "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R047",
+        "R048",
+        "R049",
+        "R051",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056",
+        "R057",
+        "R058",
+        "R059",
+        "R060",
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R067",
+        "R068",
+        "R069"
+      ],
+      "exclude_full_document_only": true
+    },
+    "chapter_4": {
+      "label": "第4章",
+      "sections": [
+        "ch4",
+        "global"
+      ],
+      "rule_ids": [
+        "R400",
+        "R401",
+        "R000",
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R017",
+        "R018",
+        "R019",
+        "R021",
+        "R022",
+        "R023",
+        "R024",
+        "R025",
+        "R026",
+        "R027",
+        "R028",
+        "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R047",
+        "R048",
+        "R049",
+        "R051",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056",
+        "R057",
+        "R058",
+        "R059",
+        "R060",
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R067",
+        "R068",
+        "R069"
+      ],
+      "exclude_full_document_only": true
+    },
+    "references": {
+      "label": "參考文獻",
+      "sections": [
+        "references",
+        "global"
+      ],
+      "rule_ids": [
+        "R500",
+        "R501",
+        "R502",
+        "R503",
+        "R504",
+        "R505",
+        "R506",
+        "R507",
+        "R508",
+        "R509",
+        "R510",
+        "R511",
+        "R512",
+        "R513",
+        "R514",
+        "R515",
+        "R516",
+        "R000",
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010"
+      ],
+      "exclude_full_document_only": true
+    },
+    "front_matter": {
+      "label": "封面目錄",
+      "sections": [
+        "front_matter"
+      ],
+      "rule_ids": [
+        "R600",
+        "R601",
+        "R602",
+        "R603",
+        "R604",
+        "R605",
+        "R606",
+        "R607",
+        "R608",
+        "R609",
+        "R610",
+        "R611",
+        "R612",
+        "R613",
+        "R614",
+        "R615",
+        "R616",
+        "R617",
+        "R618",
+        "R619",
+        "R620",
+        "R621",
+        "R622",
+        "R623",
+        "R624",
+        "R625",
+        "R626",
+        "R627",
+        "R628",
+        "R629",
+        "R630",
+        "R631",
+        "R632",
+        "R633",
+        "R634",
+        "R635",
+        "R636",
+        "R637",
+        "R638",
+        "R639",
+        "R640",
+        "R641",
+        "R642",
+        "R643",
+        "R644",
+        "R645",
+        "R646",
+        "R647",
+        "R648",
+        "R649",
+        "R650",
+        "R651",
+        "R652",
+        "R653",
+        "R654",
+        "R655",
+        "R656",
+        "R657"
+      ],
+      "exclude_full_document_only": false
+    },
+    "full_document": {
+      "label": "完整文件",
+      "sections": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references",
+        "front_matter"
+      ],
+      "rule_ids": [
+        "R000",
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "R015",
+        "R016",
+        "R017",
+        "R018",
+        "R019",
+        "R020",
+        "R021",
+        "R022",
+        "R023",
+        "R024",
+        "R025",
+        "R026",
+        "R027",
+        "R028",
+        "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R036",
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046",
+        "R047",
+        "R048",
+        "R049",
+        "R050",
+        "R051",
+        "R052",
+        "R053",
+        "R054",
+        "R055",
+        "R056",
+        "R057",
+        "R058",
+        "R059",
+        "R060",
+        "R061",
+        "R062",
+        "R063",
+        "R064",
+        "R065",
+        "R066",
+        "R067",
+        "R068",
+        "R069",
+        "R070",
+        "R071",
+        "R072",
+        "R100",
+        "R101",
+        "R200",
+        "R300",
+        "R400",
+        "R401",
+        "R500",
+        "R501",
+        "R502",
+        "R503",
+        "R504",
+        "R505",
+        "R506",
+        "R507",
+        "R508",
+        "R509",
+        "R510",
+        "R511",
+        "R512",
+        "R513",
+        "R514",
+        "R515",
+        "R516",
+        "R600",
+        "R601",
+        "R602",
+        "R603",
+        "R604",
+        "R605",
+        "R606",
+        "R607",
+        "R608",
+        "R609",
+        "R610",
+        "R611",
+        "R612",
+        "R613",
+        "R614",
+        "R615",
+        "R616",
+        "R617",
+        "R618",
+        "R619",
+        "R620",
+        "R621",
+        "R622",
+        "R623",
+        "R624",
+        "R625",
+        "R626",
+        "R627",
+        "R628",
+        "R629",
+        "R630",
+        "R631",
+        "R632",
+        "R633",
+        "R634",
+        "R635",
+        "R636",
+        "R637",
+        "R638",
+        "R639",
+        "R640",
+        "R641",
+        "R642",
+        "R643",
+        "R644",
+        "R645",
+        "R646",
+        "R647",
+        "R648",
+        "R649",
+        "R650",
+        "R651",
+        "R652",
+        "R653",
+        "R654",
+        "R655",
+        "R656",
+        "R657"
+      ],
+      "exclude_full_document_only": false
+    }
+  },
+  "rules": [
+    {
+      "section": "global",
+      "category": "page",
+      "condition": "紙張 A4：21.0×29.7 cm、直式",
+      "source": "sectPr|style",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references",
+        "front_matter"
+      ],
+      "id": "R000",
+      "old_id": "R001",
+      "source_original_ids": [
+        "R001"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "page",
+      "condition": "上邊界 2.54 cm",
+      "source": "comment:0|textbox|使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references",
+        "front_matter"
+      ],
+      "id": "R001",
+      "old_id": "R002",
+      "source_original_ids": [
+        "R002"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "page",
+      "condition": "下邊界 2.54 cm",
+      "source": "comment:0|textbox|使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references",
+        "front_matter"
+      ],
+      "id": "R002",
+      "old_id": "R002",
+      "source_original_ids": [
+        "R002"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "page",
+      "condition": "左邊界 3.17 cm",
+      "source": "comment:0|textbox|使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references",
+        "front_matter"
+      ],
+      "id": "R003",
+      "old_id": "R002",
+      "source_original_ids": [
+        "R002"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "page",
+      "condition": "右邊界 3.17 cm",
+      "source": "comment:0|textbox|使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references",
+        "front_matter"
+      ],
+      "id": "R004",
+      "old_id": "R002",
+      "source_original_ids": [
+        "R002"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "page",
+      "condition": "裝訂邊 gutter = 0（全節）",
+      "source": "使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references",
+        "front_matter"
+      ],
+      "id": "R005",
+      "old_id": "R002",
+      "source_original_ids": [
+        "R002"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "page",
+      "condition": "原始 docx 正文節曾有不同邊界／gutter，非規格",
+      "source": "sectPr",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "non_normative_sample_deviation",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references",
+        "front_matter"
+      ],
+      "id": "R006",
+      "old_id": "R003",
+      "source_original_ids": [
+        "R003"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "page",
+      "condition": "正文頁碼為阿拉伯數字",
+      "source": "comment:16|sectPr",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references"
+      ],
+      "id": "R007",
+      "old_id": "R071",
+      "source_original_ids": [
+        "R071"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "typography",
+      "condition": "正文中文 eastAsia＝標楷體",
+      "source": "comment:27",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references",
+        "front_matter"
+      ],
+      "id": "R008",
+      "old_id": "R030",
+      "source_original_ids": [
+        "R030"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "typography",
+      "condition": "正文英文／數字＝Times New Roman",
+      "source": "comment:27",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references",
+        "front_matter"
+      ],
+      "id": "R009",
+      "old_id": "R031",
+      "source_original_ids": [
+        "R031"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "typography",
+      "condition": "文件 docDefaults eastAsia 若為新細明體須覆寫為標楷體",
+      "source": "style docDefaults",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "observed_sample",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "references",
+        "front_matter"
+      ],
+      "id": "R010",
+      "old_id": "R032",
+      "source_original_ids": [
+        "R032"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "body",
+      "condition": "正文／內文字級 12 級",
+      "source": "comment:27",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R011",
+      "old_id": "R033",
+      "source_original_ids": [
+        "R033"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "body",
+      "condition": "正文首行縮排 2 字元",
+      "source": "comment:27",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R012",
+      "old_id": "R033",
+      "source_original_ids": [
+        "R033"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "body",
+      "condition": "正文行距 1.5 倍",
+      "source": "comment:27",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R013",
+      "old_id": "R033",
+      "source_original_ids": [
+        "R033"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "body",
+      "condition": "正文段落之間不空行",
+      "source": "comment:27",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R014",
+      "old_id": "R033",
+      "source_original_ids": [
+        "R033"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "body",
+      "condition": "正文左右對齊（justify／both）",
+      "source": "使用者確認 2026-10-31（註解原寫考左對齊）",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R015",
+      "old_id": "R034",
+      "source_original_ids": [
+        "R034"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "body",
+      "condition": "直接引用：粗體",
+      "source": "comment:27",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R016",
+      "old_id": "R035",
+      "source_original_ids": [
+        "R035"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "body",
+      "condition": "直接引用：加引號",
+      "source": "comment:27",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R017",
+      "old_id": "R035",
+      "source_original_ids": [
+        "R035"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "body",
+      "condition": "直接引用原文 ≤50 字（不含標點）",
+      "source": "comment:27",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R018",
+      "old_id": "R035",
+      "source_original_ids": [
+        "R035"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "body",
+      "condition": "引用須標作者與年代",
+      "source": "comment:27",
+      "auto_checkable": false,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R019",
+      "old_id": "R036",
+      "source_original_ids": [
+        "R036"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "body",
+      "condition": "引用資料須列入參考文獻",
+      "source": "comment:27",
+      "auto_checkable": false,
+      "full_document_only": true,
+      "status": "confirmed",
+      "applies_to": [
+        "global"
+      ],
+      "id": "R020",
+      "old_id": "R036",
+      "source_original_ids": [
+        "R036"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "章標題格式「第○章 …」",
+      "source": "comment:25",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R021",
+      "old_id": "R042",
+      "source_original_ids": [
+        "R042"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "章標題中文標楷體",
+      "source": "comment:25",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R022",
+      "old_id": "R042",
+      "source_original_ids": [
+        "R042"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "章標題英文／數字 Times New Roman",
+      "source": "comment:25",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R023",
+      "old_id": "R042",
+      "source_original_ids": [
+        "R042"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "章標題字級 16、粗體",
+      "source": "comment:25",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R024",
+      "old_id": "R042",
+      "source_original_ids": [
+        "R042"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "章標題置中",
+      "source": "comment:25",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R025",
+      "old_id": "R042",
+      "source_original_ids": [
+        "R042"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "章標題行距 2 倍",
+      "source": "comment:25",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R026",
+      "old_id": "R043",
+      "source_original_ids": [
+        "R043"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "章標題與節之間不空行",
+      "source": "comment:25",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R027",
+      "old_id": "R043",
+      "source_original_ids": [
+        "R043"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "節標題格式「N-N」（阿拉伯數字＋連字號）",
+      "source": "comment:26",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R028",
+      "old_id": "R044",
+      "source_original_ids": [
+        "R044"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "節標題中文標楷體",
+      "source": "comment:26",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R029",
+      "old_id": "R044",
+      "source_original_ids": [
+        "R044"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "節標題英文／數字 Times New Roman",
+      "source": "comment:26",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R030",
+      "old_id": "R044",
+      "source_original_ids": [
+        "R044"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "節標題字級 14、粗體",
+      "source": "comment:26",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R031",
+      "old_id": "R044",
+      "source_original_ids": [
+        "R044"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "節標題靠左、不縮排",
+      "source": "comment:26",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R032",
+      "old_id": "R044",
+      "source_original_ids": [
+        "R044"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "節標題行距 1.5 倍",
+      "source": "comment:26",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R033",
+      "old_id": "R044",
+      "source_original_ids": [
+        "R044"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "節標題與內文之間不空行",
+      "source": "comment:26",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R034",
+      "old_id": "R044",
+      "source_original_ids": [
+        "R044"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "層次編碼系統：第○章／1-1／一、／（一）／1.／（1）",
+      "source": "body 內文層次編碼框|comment:28",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R035",
+      "old_id": "R040",
+      "source_original_ids": [
+        "R040"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "論述層次一般分到第四層即可",
+      "source": "body 內文層次編碼框",
+      "auto_checkable": false,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R036",
+      "old_id": "R041",
+      "source_original_ids": [
+        "R041"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "第三層以下（一、等）字級 12",
+      "source": "body 內文層次編碼框",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R037",
+      "old_id": "R045",
+      "source_original_ids": [
+        "R045"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "縮排：一、約 1.5 字元；（一）約 2.5；1. 約 3；（1）約 4",
+      "source": "body 內文層次編碼框",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R038",
+      "old_id": "R045",
+      "source_original_ids": [
+        "R045"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "heading",
+      "condition": "層次標題段落間不空行",
+      "source": "body 內文層次編碼框|comment:28",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R039",
+      "old_id": "R046",
+      "source_original_ids": [
+        "R046"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "citation",
+      "condition": "英文正文引註：Surname (year) 或 (Surname, year)",
+      "source": "comment:29",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R040",
+      "old_id": "R093",
+      "source_original_ids": [
+        "R093"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "citation",
+      "condition": "中文正文引註：姓名（年代）或（姓名，年代）",
+      "source": "comment:29",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R041",
+      "old_id": "R094",
+      "source_original_ids": [
+        "R094"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表須編碼，格式「章－號」（阿拉伯數字＋連字號）",
+      "source": "comment:30",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R042",
+      "old_id": "R085",
+      "source_original_ids": [
+        "R085"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表編碼後須有標題",
+      "source": "comment:30",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R043",
+      "old_id": "R085",
+      "source_original_ids": [
+        "R085"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表名稱置於表上方",
+      "source": "comment:30",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R044",
+      "old_id": "R086",
+      "source_original_ids": [
+        "R086"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表名稱靠左對齊",
+      "source": "comment:30",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R045",
+      "old_id": "R086",
+      "source_original_ids": [
+        "R086"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表名稱中文標楷體、英文／數字 Times New Roman",
+      "source": "comment:30",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R046",
+      "old_id": "R086",
+      "source_original_ids": [
+        "R086"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表名稱字級 12",
+      "source": "comment:30",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R047",
+      "old_id": "R086",
+      "source_original_ids": [
+        "R086"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表名稱行距 1.5 倍",
+      "source": "comment:30",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R048",
+      "old_id": "R086",
+      "source_original_ids": [
+        "R086"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表名稱與表之間不空行",
+      "source": "comment:30",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R049",
+      "old_id": "R086",
+      "source_original_ids": [
+        "R086"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "內文有表須列入表目錄",
+      "source": "comment:30",
+      "auto_checkable": "partial",
+      "full_document_only": true,
+      "status": "confirmed",
+      "applies_to": [
+        "global"
+      ],
+      "id": "R050",
+      "old_id": "R088",
+      "source_original_ids": [
+        "R088"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表格於頁面置中",
+      "source": "comment:31",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R051",
+      "old_id": "R087",
+      "source_original_ids": [
+        "R087"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表資料來源置於表下方、需括號",
+      "source": "comment:32",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R052",
+      "old_id": "R089",
+      "source_original_ids": [
+        "R089"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表資料來源中文標楷體、英文／數字 Times New Roman、12 級、1.5 倍",
+      "source": "comment:32",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R053",
+      "old_id": "R089",
+      "source_original_ids": [
+        "R089"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表資料來源與表之間不空行",
+      "source": "comment:32",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R054",
+      "old_id": "R089",
+      "source_original_ids": [
+        "R089"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表／圖資料來源（期刊）：作者（年代）。「文章名稱」。期刊名稱，期別，頁碼。",
+      "source": "comment:32|35",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R055",
+      "old_id": "R090",
+      "source_original_ids": [
+        "R090"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "table",
+      "condition": "表／圖資料來源（書籍）：作者（年代）。書名（頁碼）。出版地：出版者。",
+      "source": "comment:32|35",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R056",
+      "old_id": "R091",
+      "source_original_ids": [
+        "R091"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "圖須編碼，格式「章－號」（阿拉伯數字＋連字號）",
+      "source": "comment:34",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R057",
+      "old_id": "R080",
+      "source_original_ids": [
+        "R080"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "圖編碼後須有標題",
+      "source": "comment:34",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R058",
+      "old_id": "R080",
+      "source_original_ids": [
+        "R080"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "圖片置中",
+      "source": "comment:34",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R059",
+      "old_id": "R081",
+      "source_original_ids": [
+        "R081"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "圖名稱置於圖下方並置中",
+      "source": "comment:34",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R060",
+      "old_id": "R081",
+      "source_original_ids": [
+        "R081"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "圖名稱中文標楷體、英文／數字 Times New Roman",
+      "source": "comment:34",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R061",
+      "old_id": "R081",
+      "source_original_ids": [
+        "R081"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "圖名稱字級 12、行距 1.5 倍",
+      "source": "comment:34",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R062",
+      "old_id": "R081",
+      "source_original_ids": [
+        "R081"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "圖與圖名／文之間不空行",
+      "source": "comment:34",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R063",
+      "old_id": "R081",
+      "source_original_ids": [
+        "R081"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "圖片清晰不模糊",
+      "source": "comment:34",
+      "auto_checkable": false,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R064",
+      "old_id": "R082",
+      "source_original_ids": [
+        "R082"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "圖面積不得超過頁面 1/4（表不在此限）",
+      "source": "comment:34",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R065",
+      "old_id": "R082",
+      "source_original_ids": [
+        "R082"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "內文有圖須列入圖目錄",
+      "source": "comment:34",
+      "auto_checkable": "partial",
+      "full_document_only": true,
+      "status": "confirmed",
+      "applies_to": [
+        "global"
+      ],
+      "id": "R066",
+      "old_id": "R083",
+      "source_original_ids": [
+        "R083"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "圖資料來源置於圖名下方、置中、需括號",
+      "source": "comment:35",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R067",
+      "old_id": "R084",
+      "source_original_ids": [
+        "R084"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "圖資料來源字型字級行距同表資料來源（標楷體／TNR、12、1.5）",
+      "source": "comment:35",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R068",
+      "old_id": "R084",
+      "source_original_ids": [
+        "R084"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "figure",
+      "condition": "非引用圖表可註「研究者繪製／整理／拍攝」等",
+      "source": "comment:35",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "global",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4"
+      ],
+      "id": "R069",
+      "old_id": "R092",
+      "source_original_ids": [
+        "R092"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "structure",
+      "condition": "字數無限制；不套用中學生小論文字數／頁數上限",
+      "source": "使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "full_document_only": true,
+      "status": "confirmed",
+      "applies_to": [
+        "global"
+      ],
+      "id": "R070",
+      "old_id": "R109",
+      "source_original_ids": [
+        "R109"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "structure",
+      "condition": "整份文件總頁數（含封面、目錄、附錄）≥10",
+      "source": "使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "full_document_only": true,
+      "status": "confirmed",
+      "applies_to": [
+        "global"
+      ],
+      "id": "R071",
+      "old_id": "R109",
+      "source_original_ids": [
+        "R109"
+      ]
+    },
+    {
+      "section": "global",
+      "category": "structure",
+      "condition": "正文強制四章（章數＝4；參考文獻／附錄不計入章）",
+      "source": "使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "full_document_only": true,
+      "status": "confirmed",
+      "applies_to": [
+        "global"
+      ],
+      "id": "R072",
+      "old_id": "R110",
+      "source_original_ids": [
+        "R110"
+      ]
+    },
+    {
+      "section": "ch1",
+      "category": "structure",
+      "condition": "第一章標題為「緒論」",
+      "source": "comment:16|sample",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "ch1"
+      ],
+      "id": "R100",
+      "old_id": "R111",
+      "source_original_ids": [
+        "R111"
+      ]
+    },
+    {
+      "section": "ch1",
+      "category": "structure",
+      "condition": "第一章範例節：1-1 研究動機、1-2 研究目的、1-3 研究方法、1-4 研究流程（範例；註解未強制節名）",
+      "source": "sample",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "sample_example",
+      "applies_to": [
+        "ch1"
+      ],
+      "id": "R101",
+      "old_id": "R112",
+      "source_original_ids": [
+        "R112"
+      ]
+    },
+    {
+      "section": "ch2",
+      "category": "structure",
+      "condition": "第二章標題為「文獻探討」",
+      "source": "sample",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "ch2"
+      ],
+      "id": "R200",
+      "old_id": "R113",
+      "source_original_ids": [
+        "R113"
+      ]
+    },
+    {
+      "section": "ch3",
+      "category": "structure",
+      "condition": "第三章標題為「專題成果」",
+      "source": "sample",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "ch3"
+      ],
+      "id": "R300",
+      "old_id": "R114",
+      "source_original_ids": [
+        "R114"
+      ]
+    },
+    {
+      "section": "ch4",
+      "category": "structure",
+      "condition": "第四章標題為「結論」或範例「結論與建議」",
+      "source": "comment:16|sample",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "ch4"
+      ],
+      "id": "R400",
+      "old_id": "R115",
+      "source_original_ids": [
+        "R115"
+      ]
+    },
+    {
+      "section": "ch4",
+      "category": "structure",
+      "condition": "結論宜含：研究過程現象思考、依結果提出看法、未來研究方向",
+      "source": "comment:36",
+      "auto_checkable": false,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "ch4"
+      ],
+      "id": "R401",
+      "old_id": "R100",
+      "source_original_ids": [
+        "R100"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "參考文獻為非章節",
+      "source": "comment:37",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R500",
+      "old_id": "R047",
+      "source_original_ids": [
+        "R047"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "參考文獻標題靠左",
+      "source": "comment:37",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R501",
+      "old_id": "R047",
+      "source_original_ids": [
+        "R047"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "參考文獻標題字級 14、加粗",
+      "source": "comment:37",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R502",
+      "old_id": "R047",
+      "source_original_ids": [
+        "R047"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "參考文獻標題中文標楷體、英文／數字 Times New Roman",
+      "source": "comment:37",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R503",
+      "old_id": "R047",
+      "source_original_ids": [
+        "R047"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "參考文獻標題行距 1.5 倍、與下文不空行",
+      "source": "comment:37",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R504",
+      "old_id": "R047",
+      "source_original_ids": [
+        "R047"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "參考文獻內文靠左、凸排 2 字元",
+      "source": "comment:38",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R505",
+      "old_id": "R101",
+      "source_original_ids": [
+        "R101"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "參考文獻內文中文標楷體、英文／數字 Times New Roman",
+      "source": "comment:38",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R506",
+      "old_id": "R101",
+      "source_original_ids": [
+        "R101"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "參考文獻內文字級 12、行距 1.5 倍",
+      "source": "comment:38",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R507",
+      "old_id": "R101",
+      "source_original_ids": [
+        "R101"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "文獻與文獻之間不空行",
+      "source": "comment:38",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R508",
+      "old_id": "R101",
+      "source_original_ids": [
+        "R101"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "引注格式依中學生網站 APA 小論文範例",
+      "source": "comment:38",
+      "auto_checkable": false,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R509",
+      "old_id": "R102",
+      "source_original_ids": [
+        "R102"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "紙本參考文獻至少 3 篇",
+      "source": "comment:38",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R510",
+      "old_id": "R103",
+      "source_original_ids": [
+        "R103"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "嚴禁引用論壇、問答或聊天網站或不具公信力內容",
+      "source": "comment:38",
+      "auto_checkable": false,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R511",
+      "old_id": "R104",
+      "source_original_ids": [
+        "R104"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "網址過長可用縮短器",
+      "source": "comment:38",
+      "auto_checkable": false,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R512",
+      "old_id": "R105",
+      "source_original_ids": [
+        "R105"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "網路資源模板：作者（西洋年）。篇名。擷取日期，取自網址。",
+      "source": "comment:38",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R513",
+      "old_id": "R106",
+      "source_original_ids": [
+        "R106"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "文獻排序：中文在前、英文在後",
+      "source": "comment:38",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R514",
+      "old_id": "R107",
+      "source_original_ids": [
+        "R107"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "中文文獻依姓氏筆畫；英文依姓氏字母",
+      "source": "comment:38",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R515",
+      "old_id": "R107",
+      "source_original_ids": [
+        "R107"
+      ]
+    },
+    {
+      "section": "references",
+      "category": "reference",
+      "condition": "網路／書籍／期刊類型書寫格式（見 comment:38）",
+      "source": "comment:38",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "references"
+      ],
+      "id": "R516",
+      "old_id": "R108",
+      "source_original_ids": [
+        "R108"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面校名中文標楷體",
+      "source": "comment:1",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R600",
+      "old_id": "R010",
+      "source_original_ids": [
+        "R010"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面校名英文／數字 Times New Roman",
+      "source": "comment:1",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R601",
+      "old_id": "R010",
+      "source_original_ids": [
+        "R010"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面校名字級 26、置中",
+      "source": "comment:1",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R602",
+      "old_id": "R010",
+      "source_original_ids": [
+        "R010"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面校名與「專題實作報告」之間空 2 行（空行字級 12）",
+      "source": "comment:1",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R603",
+      "old_id": "R012",
+      "source_original_ids": [
+        "R012"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面「專題實作報告」中文標楷體、英文／數字 Times New Roman",
+      "source": "comment:2",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R604",
+      "old_id": "R011",
+      "source_original_ids": [
+        "R011"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面「專題實作報告」字級 26、置中",
+      "source": "comment:2",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R605",
+      "old_id": "R011",
+      "source_original_ids": [
+        "R011"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面「專題實作報告」與題目之間空 2 行（空行字級 12）",
+      "source": "comment:2",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R606",
+      "old_id": "R013",
+      "source_original_ids": [
+        "R013"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面題目標楷體、20 級、置中",
+      "source": "comment:3",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R607",
+      "old_id": "R014",
+      "source_original_ids": [
+        "R014"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面題目與班級區之間空 2 行（空行字級 12）",
+      "source": "comment:3",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R608",
+      "old_id": "R015",
+      "source_original_ids": [
+        "R015"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "班級／製作學生／指導老師以表格製作",
+      "source": "comment:4",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R609",
+      "old_id": "R016",
+      "source_original_ids": [
+        "R016"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面資料表中文標楷體、英文／數字 Times New Roman、字級 16",
+      "source": "comment:4",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R610",
+      "old_id": "R016",
+      "source_original_ids": [
+        "R016"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面欄位含班級、製作學生、指導老師",
+      "source": "sample table|comment:4",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R611",
+      "old_id": "R017",
+      "source_original_ids": [
+        "R017"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "封面日期中文標楷體、英文／數字 Times New Roman、20 級、分散對齊",
+      "source": "comment:5",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R612",
+      "old_id": "R018",
+      "source_original_ids": [
+        "R018"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "簽名頁校名標楷體、26 級、置中",
+      "source": "comment:6",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R613",
+      "old_id": "R020",
+      "source_original_ids": [
+        "R020"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "簽名頁「專題實作報告」標楷體＋Times New Roman、26 級、置中",
+      "source": "comment:7",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R614",
+      "old_id": "R020",
+      "source_original_ids": [
+        "R020"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "簽名頁題目標楷體、20 級、置中",
+      "source": "comment:8",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R615",
+      "old_id": "R020",
+      "source_original_ids": [
+        "R020"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "簽名頁相關文字標楷體、16 級",
+      "source": "comment:9",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R616",
+      "old_id": "R021",
+      "source_original_ids": [
+        "R021"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "口試委員 2 位",
+      "source": "comment:9",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R617",
+      "old_id": "R021",
+      "source_original_ids": [
+        "R021"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "指導老師 1 位",
+      "source": "comment:9",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R618",
+      "old_id": "R021",
+      "source_original_ids": [
+        "R021"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "專題發表結束後由口試委員及指導老師簽名",
+      "source": "comment:9",
+      "auto_checkable": false,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R619",
+      "old_id": "R021",
+      "source_original_ids": [
+        "R021"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "cover",
+      "condition": "簽名頁日期標楷體＋Times New Roman、20 級、分散對齊",
+      "source": "comment:10",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R620",
+      "old_id": "R022",
+      "source_original_ids": [
+        "R022"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "摘要標題標楷體",
+      "source": "comment:12",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R621",
+      "old_id": "R050",
+      "source_original_ids": [
+        "R050"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "摘要標題字級 18、置中",
+      "source": "comment:12",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R622",
+      "old_id": "R050",
+      "source_original_ids": [
+        "R050"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "摘要標題行距 1.5 倍",
+      "source": "comment:12",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R623",
+      "old_id": "R050",
+      "source_original_ids": [
+        "R050"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "摘要標題與摘要內文之間不空行",
+      "source": "comment:12",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R624",
+      "old_id": "R050",
+      "source_original_ids": [
+        "R050"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "摘要內文中文標楷體、英文／數字 Times New Roman",
+      "source": "comment:13",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R625",
+      "old_id": "R051",
+      "source_original_ids": [
+        "R051"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "摘要內文字級 12",
+      "source": "comment:13",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R626",
+      "old_id": "R051",
+      "source_original_ids": [
+        "R051"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "摘要內文左右對齊",
+      "source": "comment:13",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R627",
+      "old_id": "R051",
+      "source_original_ids": [
+        "R051"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "摘要內文首行縮排 2 字",
+      "source": "comment:13",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R628",
+      "old_id": "R051",
+      "source_original_ids": [
+        "R051"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "摘要內文行距 1.5 倍",
+      "source": "comment:13",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R629",
+      "old_id": "R051",
+      "source_original_ids": [
+        "R051"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "摘要段落之間不空行",
+      "source": "comment:13",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R630",
+      "old_id": "R051",
+      "source_original_ids": [
+        "R051"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "關鍵詞 3–5 個",
+      "source": "comment:14",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R631",
+      "old_id": "R052",
+      "source_original_ids": [
+        "R052"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "關鍵詞與摘要內文之間空 1 行",
+      "source": "comment:14",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R632",
+      "old_id": "R052",
+      "source_original_ids": [
+        "R052"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "關鍵詞中文標楷體、英文／數字 Times New Roman、12 級",
+      "source": "comment:14",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R633",
+      "old_id": "R052",
+      "source_original_ids": [
+        "R052"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "abstract",
+      "condition": "關鍵詞行距 1.5 倍、靠左、不縮排",
+      "source": "comment:14",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R634",
+      "old_id": "R052",
+      "source_original_ids": [
+        "R052"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "目錄標題標楷體、16 級、置中、1.5 倍",
+      "source": "comment:15",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R635",
+      "old_id": "R060",
+      "source_original_ids": [
+        "R060"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "目錄標題與目錄內容之間不空行",
+      "source": "comment:15",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R636",
+      "old_id": "R060",
+      "source_original_ids": [
+        "R060"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "目錄內容字級 12、行距 1.5 倍",
+      "source": "comment:16",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R637",
+      "old_id": "R061",
+      "source_original_ids": [
+        "R061"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "目錄章以「第一章 緒論」～「第四章 結論」形式表示",
+      "source": "comment:16",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R638",
+      "old_id": "R061",
+      "source_original_ids": [
+        "R061"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "目錄章條目頁碼置右、阿拉伯數字",
+      "source": "comment:16",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R639",
+      "old_id": "R061",
+      "source_original_ids": [
+        "R061"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "目錄內容中文標楷體、英文／數字 Times New Roman",
+      "source": "comment:16",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R640",
+      "old_id": "R061",
+      "source_original_ids": [
+        "R061"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "目錄節以「1-1」「2-1」等形式",
+      "source": "comment:17",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R641",
+      "old_id": "R062",
+      "source_original_ids": [
+        "R062"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "目錄節條目頁碼置右、阿拉伯數字",
+      "source": "comment:17",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R642",
+      "old_id": "R062",
+      "source_original_ids": [
+        "R062"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "目錄節靠左、縮排 2 字元",
+      "source": "comment:17",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R643",
+      "old_id": "R062",
+      "source_original_ids": [
+        "R062"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "目錄節中文標楷體、英文／數字 Times New Roman、12 級、1.5 倍",
+      "source": "comment:17",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R644",
+      "old_id": "R062",
+      "source_original_ids": [
+        "R062"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "目錄中「參考文獻」「附錄」非章節、需頁碼、靠左不縮排",
+      "source": "comment:18",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R645",
+      "old_id": "R063",
+      "source_original_ids": [
+        "R063"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "圖目錄標題標楷體、16 級、置中、1.5 倍",
+      "source": "comment:20",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R646",
+      "old_id": "R064",
+      "source_original_ids": [
+        "R064"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "圖目錄標題與內容之間不空行",
+      "source": "comment:20",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R647",
+      "old_id": "R064",
+      "source_original_ids": [
+        "R064"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "圖目錄條目頁碼置右、大寫羅馬數字",
+      "source": "comment:21|使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R648",
+      "old_id": "R065",
+      "source_original_ids": [
+        "R065"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "圖目錄內容中文標楷體、英文／數字 Times New Roman、12 級",
+      "source": "comment:21",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R649",
+      "old_id": "R065",
+      "source_original_ids": [
+        "R065"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "圖目錄內容靠左、行距 1.5 倍",
+      "source": "comment:21",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R650",
+      "old_id": "R065",
+      "source_original_ids": [
+        "R065"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "表目錄標題標楷體、16 級、置中、1.5 倍",
+      "source": "comment:23",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R651",
+      "old_id": "R066",
+      "source_original_ids": [
+        "R066"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "表目錄標題與內容之間不空行",
+      "source": "comment:23",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R652",
+      "old_id": "R066",
+      "source_original_ids": [
+        "R066"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "表目錄條目頁碼置右、大寫羅馬數字",
+      "source": "comment:24|使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R653",
+      "old_id": "R067",
+      "source_original_ids": [
+        "R067"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "表目錄內容中文標楷體、英文／數字 Times New Roman、12 級、靠左、1.5 倍",
+      "source": "comment:24",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R654",
+      "old_id": "R067",
+      "source_original_ids": [
+        "R067"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "page",
+      "condition": "前頁（封面後至正文前）頁碼為大寫羅馬數字",
+      "source": "comment:21|sectPr",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R655",
+      "old_id": "R070",
+      "source_original_ids": [
+        "R070"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "page",
+      "condition": "目錄所載前頁碼範例為大寫羅馬（如 III–VI）",
+      "source": "sample",
+      "auto_checkable": "partial",
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R656",
+      "old_id": "R072",
+      "source_original_ids": [
+        "R072"
+      ]
+    },
+    {
+      "section": "front_matter",
+      "category": "toc",
+      "condition": "附錄在目錄中非章節、靠左不縮排（見 comment:18）",
+      "source": "comment:18",
+      "auto_checkable": true,
+      "full_document_only": false,
+      "status": "confirmed",
+      "applies_to": [
+        "front_matter"
+      ],
+      "id": "R657",
+      "old_id": "R048",
+      "source_original_ids": [
+        "R048"
+      ]
+    }
+  ],
+  "id_migration": {
+    "original_to_new": {
+      "R001": [
+        "R000"
+      ],
+      "R002": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005"
+      ],
+      "R003": [
+        "R006"
+      ],
+      "R071": [
+        "R007"
+      ],
+      "R030": [
+        "R008"
+      ],
+      "R031": [
+        "R009"
+      ],
+      "R032": [
+        "R010"
+      ],
+      "R033": [
+        "R011",
+        "R012",
+        "R013",
+        "R014"
+      ],
+      "R034": [
+        "R015"
+      ],
+      "R035": [
         "R016",
         "R017",
         "R018"
       ],
-      "description": "測參考文獻時：套用本節 rule_ids + 版面／字型等 inherit。"
+      "R036": [
+        "R019",
+        "R020"
+      ],
+      "R042": [
+        "R021",
+        "R022",
+        "R023",
+        "R024",
+        "R025"
+      ],
+      "R043": [
+        "R026",
+        "R027"
+      ],
+      "R044": [
+        "R028",
+        "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034"
+      ],
+      "R040": [
+        "R035"
+      ],
+      "R041": [
+        "R036"
+      ],
+      "R045": [
+        "R037",
+        "R038"
+      ],
+      "R046": [
+        "R039"
+      ],
+      "R093": [
+        "R040"
+      ],
+      "R094": [
+        "R041"
+      ],
+      "R085": [
+        "R042",
+        "R043"
+      ],
+      "R086": [
+        "R044",
+        "R045",
+        "R046",
+        "R047",
+        "R048",
+        "R049"
+      ],
+      "R088": [
+        "R050"
+      ],
+      "R087": [
+        "R051"
+      ],
+      "R089": [
+        "R052",
+        "R053",
+        "R054"
+      ],
+      "R090": [
+        "R055"
+      ],
+      "R091": [
+        "R056"
+      ],
+      "R080": [
+        "R057",
+        "R058"
+      ],
+      "R081": [
+        "R059",
+        "R060",
+        "R061",
+        "R062",
+        "R063"
+      ],
+      "R082": [
+        "R064",
+        "R065"
+      ],
+      "R083": [
+        "R066"
+      ],
+      "R084": [
+        "R067",
+        "R068"
+      ],
+      "R092": [
+        "R069"
+      ],
+      "R109": [
+        "R070",
+        "R071"
+      ],
+      "R110": [
+        "R072"
+      ],
+      "R111": [
+        "R100"
+      ],
+      "R112": [
+        "R101"
+      ],
+      "R113": [
+        "R200"
+      ],
+      "R114": [
+        "R300"
+      ],
+      "R115": [
+        "R400"
+      ],
+      "R100": [
+        "R401"
+      ],
+      "R047": [
+        "R500",
+        "R501",
+        "R502",
+        "R503",
+        "R504"
+      ],
+      "R101": [
+        "R505",
+        "R506",
+        "R507",
+        "R508"
+      ],
+      "R102": [
+        "R509"
+      ],
+      "R103": [
+        "R510"
+      ],
+      "R104": [
+        "R511"
+      ],
+      "R105": [
+        "R512"
+      ],
+      "R106": [
+        "R513"
+      ],
+      "R107": [
+        "R514",
+        "R515"
+      ],
+      "R108": [
+        "R516"
+      ],
+      "R010": [
+        "R600",
+        "R601",
+        "R602"
+      ],
+      "R012": [
+        "R603"
+      ],
+      "R011": [
+        "R604",
+        "R605"
+      ],
+      "R013": [
+        "R606"
+      ],
+      "R014": [
+        "R607"
+      ],
+      "R015": [
+        "R608"
+      ],
+      "R016": [
+        "R609",
+        "R610"
+      ],
+      "R017": [
+        "R611"
+      ],
+      "R018": [
+        "R612"
+      ],
+      "R020": [
+        "R613",
+        "R614",
+        "R615"
+      ],
+      "R021": [
+        "R616",
+        "R617",
+        "R618",
+        "R619"
+      ],
+      "R022": [
+        "R620"
+      ],
+      "R050": [
+        "R621",
+        "R622",
+        "R623",
+        "R624"
+      ],
+      "R051": [
+        "R625",
+        "R626",
+        "R627",
+        "R628",
+        "R629",
+        "R630"
+      ],
+      "R052": [
+        "R631",
+        "R632",
+        "R633",
+        "R634"
+      ],
+      "R060": [
+        "R635",
+        "R636"
+      ],
+      "R061": [
+        "R637",
+        "R638",
+        "R639",
+        "R640"
+      ],
+      "R062": [
+        "R641",
+        "R642",
+        "R643",
+        "R644"
+      ],
+      "R063": [
+        "R645"
+      ],
+      "R064": [
+        "R646",
+        "R647"
+      ],
+      "R065": [
+        "R648",
+        "R649",
+        "R650"
+      ],
+      "R066": [
+        "R651",
+        "R652"
+      ],
+      "R067": [
+        "R653",
+        "R654"
+      ],
+      "R070": [
+        "R655"
+      ],
+      "R072": [
+        "R656"
+      ],
+      "R048": [
+        "R657"
+      ]
+    },
+    "previous_R000_era_to_new": {
+      "R000": [
+        "R000"
+      ],
+      "R001": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005"
+      ],
+      "R002": [
+        "R006"
+      ],
+      "R043": [
+        "R007"
+      ],
+      "R016": [
+        "R008"
+      ],
+      "R017": [
+        "R009"
+      ],
+      "R018": [
+        "R010"
+      ],
+      "R019": [
+        "R011",
+        "R012",
+        "R013",
+        "R014"
+      ],
+      "R020": [
+        "R015"
+      ],
+      "R021": [
+        "R016",
+        "R017",
+        "R018"
+      ],
+      "R022": [
+        "R019",
+        "R020"
+      ],
+      "R025": [
+        "R021",
+        "R022",
+        "R023",
+        "R024",
+        "R025"
+      ],
+      "R026": [
+        "R026",
+        "R027"
+      ],
+      "R027": [
+        "R028",
+        "R029",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R034"
+      ],
+      "R023": [
+        "R035"
+      ],
+      "R024": [
+        "R036"
+      ],
+      "R028": [
+        "R037",
+        "R038"
+      ],
+      "R029": [
+        "R039"
+      ],
+      "R058": [
+        "R040"
+      ],
+      "R059": [
+        "R041"
+      ],
+      "R050": [
+        "R042",
+        "R043"
+      ],
+      "R051": [
+        "R044",
+        "R045",
+        "R046",
+        "R047",
+        "R048",
+        "R049"
+      ],
+      "R053": [
+        "R050"
+      ],
+      "R052": [
+        "R051"
+      ],
+      "R054": [
+        "R052",
+        "R053",
+        "R054"
+      ],
+      "R055": [
+        "R055"
+      ],
+      "R056": [
+        "R056"
+      ],
+      "R045": [
+        "R057",
+        "R058"
+      ],
+      "R046": [
+        "R059",
+        "R060",
+        "R061",
+        "R062",
+        "R063"
+      ],
+      "R047": [
+        "R064",
+        "R065"
+      ],
+      "R048": [
+        "R066"
+      ],
+      "R049": [
+        "R067",
+        "R068"
+      ],
+      "R057": [
+        "R069"
+      ],
+      "R060": [
+        "R070",
+        "R071"
+      ],
+      "R061": [
+        "R072"
+      ],
+      "R100": [
+        "R100"
+      ],
+      "R101": [
+        "R101"
+      ],
+      "R200": [
+        "R200"
+      ],
+      "R300": [
+        "R300"
+      ],
+      "R401": [
+        "R400"
+      ],
+      "R400": [
+        "R401"
+      ],
+      "R500": [
+        "R500",
+        "R501",
+        "R502",
+        "R503",
+        "R504"
+      ],
+      "R501": [
+        "R505",
+        "R506",
+        "R507",
+        "R508"
+      ],
+      "R502": [
+        "R509"
+      ],
+      "R503": [
+        "R510"
+      ],
+      "R504": [
+        "R511"
+      ],
+      "R505": [
+        "R512"
+      ],
+      "R506": [
+        "R513"
+      ],
+      "R507": [
+        "R514",
+        "R515"
+      ],
+      "R508": [
+        "R516"
+      ],
+      "R004": [
+        "R600",
+        "R601",
+        "R602"
+      ],
+      "R006": [
+        "R603"
+      ],
+      "R005": [
+        "R604",
+        "R605"
+      ],
+      "R007": [
+        "R606"
+      ],
+      "R008": [
+        "R607"
+      ],
+      "R009": [
+        "R608"
+      ],
+      "R010": [
+        "R609",
+        "R610"
+      ],
+      "R011": [
+        "R611"
+      ],
+      "R012": [
+        "R612"
+      ],
+      "R013": [
+        "R613",
+        "R614",
+        "R615"
+      ],
+      "R014": [
+        "R616",
+        "R617",
+        "R618",
+        "R619"
+      ],
+      "R015": [
+        "R620"
+      ],
+      "R031": [
+        "R621",
+        "R622",
+        "R623",
+        "R624"
+      ],
+      "R032": [
+        "R625",
+        "R626",
+        "R627",
+        "R628",
+        "R629",
+        "R630"
+      ],
+      "R033": [
+        "R631",
+        "R632",
+        "R633",
+        "R634"
+      ],
+      "R034": [
+        "R635",
+        "R636"
+      ],
+      "R035": [
+        "R637",
+        "R638",
+        "R639",
+        "R640"
+      ],
+      "R036": [
+        "R641",
+        "R642",
+        "R643",
+        "R644"
+      ],
+      "R037": [
+        "R645"
+      ],
+      "R038": [
+        "R646",
+        "R647"
+      ],
+      "R039": [
+        "R648",
+        "R649",
+        "R650"
+      ],
+      "R040": [
+        "R651",
+        "R652"
+      ],
+      "R041": [
+        "R653",
+        "R654"
+      ],
+      "R042": [
+        "R655"
+      ],
+      "R044": [
+        "R656"
+      ],
+      "R030": [
+        "R657"
+      ]
+    },
+    "note": "old_id／source_original_ids 對照最初舊編號（R001…）；拆分後一個舊 ID 可對多個新 ID。無刪除最初已存在之要求。",
+    "summary": {
+      "total_rules": 154,
+      "by_section": {
+        "global": 73,
+        "ch1": 2,
+        "ch2": 1,
+        "ch3": 1,
+        "ch4": 2,
+        "references": 17,
+        "front_matter": 58
+      },
+      "original_ids_mapped": 76,
+      "merged": 0,
+      "deleted_original_requirements": 0
     }
   },
-  "id_scheme": {
-    "global": "R000–R099",
-    "ch1": "R100–R199",
-    "ch2": "R200–R299",
-    "ch3": "R300–R399",
-    "ch4": "R400–R499",
-    "references": "R500–R599",
-    "note": "各組從該區段開頭連續編號；每條含 old_id 對照舊編號"
-  },
-  "id_migration": {
-    "old_to_new": {
-      "R001": "R000",
-      "R002": "R001",
-      "R003": "R002",
-      "R004": "R003",
-      "R010": "R004",
-      "R011": "R005",
-      "R012": "R006",
-      "R013": "R007",
-      "R014": "R008",
-      "R015": "R009",
-      "R016": "R010",
-      "R017": "R011",
-      "R018": "R012",
-      "R020": "R013",
-      "R021": "R014",
-      "R022": "R015",
-      "R030": "R016",
-      "R031": "R017",
-      "R032": "R018",
-      "R033": "R019",
-      "R034": "R020",
-      "R035": "R021",
-      "R036": "R022",
-      "R040": "R023",
-      "R041": "R024",
-      "R042": "R025",
-      "R043": "R026",
-      "R044": "R027",
-      "R045": "R028",
-      "R046": "R029",
-      "R048": "R030",
-      "R050": "R031",
-      "R051": "R032",
-      "R052": "R033",
-      "R060": "R034",
-      "R061": "R035",
-      "R062": "R036",
-      "R063": "R037",
-      "R064": "R038",
-      "R065": "R039",
-      "R066": "R040",
-      "R067": "R041",
-      "R070": "R042",
-      "R071": "R043",
-      "R072": "R044",
-      "R080": "R045",
-      "R081": "R046",
-      "R082": "R047",
-      "R083": "R048",
-      "R084": "R049",
-      "R085": "R050",
-      "R086": "R051",
-      "R087": "R052",
-      "R088": "R053",
-      "R089": "R054",
-      "R090": "R055",
-      "R091": "R056",
-      "R092": "R057",
-      "R093": "R058",
-      "R094": "R059",
-      "R109": "R060",
-      "R110": "R061",
-      "R111": "R100",
-      "R112": "R101",
-      "R113": "R200",
-      "R114": "R300",
-      "R100": "R400",
-      "R115": "R401",
-      "R047": "R500",
-      "R101": "R501",
-      "R102": "R502",
-      "R103": "R503",
-      "R104": "R504",
-      "R105": "R505",
-      "R106": "R506",
-      "R107": "R507",
-      "R108": "R508"
-    },
-    "audit_R001_to_R115": [
-      {
-        "old_id": "R001",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "紙張 21.0×29.7 cm（A4）直式",
-        "new_id": "R000"
-      },
-      {
-        "old_id": "R002",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "所有節邊界上/下 2.54 cm、左/右 3.17 cm、gutter=0",
-        "new_id": "R001"
-      },
-      {
-        "old_id": "R003",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "原始 docx 正文節實測邊界/gutter 偏差（非規格）",
-        "new_id": "R002"
-      },
-      {
-        "old_id": "R004",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "邊界以 R002 為唯一規格（已決議）",
-        "new_id": "R003"
-      },
-      {
-        "old_id": "R005",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R006",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R007",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R008",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R009",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R010",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "校名標楷體 26pt 置中",
-        "new_id": "R004"
-      },
-      {
-        "old_id": "R011",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "專題實作報告標 26pt 置中",
-        "new_id": "R005"
-      },
-      {
-        "old_id": "R012",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "校名與報告標題間空 2 行（12pt）",
-        "new_id": "R006"
-      },
-      {
-        "old_id": "R013",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "報告標題與題目間空 2 行（12pt）",
-        "new_id": "R007"
-      },
-      {
-        "old_id": "R014",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "題目標楷體 20pt 置中",
-        "new_id": "R008"
-      },
-      {
-        "old_id": "R015",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "題目與班級區間空 2 行",
-        "new_id": "R009"
-      },
-      {
-        "old_id": "R016",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "班級/學生/老師以表格、16pt",
-        "new_id": "R010"
-      },
-      {
-        "old_id": "R017",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "封面欄位含班級、製作學生、指導老師",
-        "new_id": "R011"
-      },
-      {
-        "old_id": "R018",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "日期 20pt 分散對齊",
-        "new_id": "R012"
-      },
-      {
-        "old_id": "R019",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R020",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "簽名頁含校名/報告名/題目",
-        "new_id": "R013"
-      },
-      {
-        "old_id": "R021",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "口試委員2、指導老師1、16pt 標楷體",
-        "new_id": "R014"
-      },
-      {
-        "old_id": "R022",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "簽名頁日期 20pt 分散對齊",
-        "new_id": "R015"
-      },
-      {
-        "old_id": "R023",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R024",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R025",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R026",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R027",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R028",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R029",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R030",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "中文 eastAsia=標楷體",
-        "new_id": "R016"
-      },
-      {
-        "old_id": "R031",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "英文/數字=Times New Roman",
-        "new_id": "R017"
-      },
-      {
-        "old_id": "R032",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "docDefaults eastAsia 實測為新細明體，交件須覆寫",
-        "new_id": "R018"
-      },
-      {
-        "old_id": "R033",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "內文12pt、首行縮排2字、1.5倍、段間不空行",
-        "new_id": "R019"
-      },
-      {
-        "old_id": "R034",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "正文左右對齊（justify/both）",
-        "new_id": "R020"
-      },
-      {
-        "old_id": "R035",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "直接引用粗體+引號、≤50字不含標點",
-        "new_id": "R021"
-      },
-      {
-        "old_id": "R036",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "引用須標作者年代並列入參考文獻",
-        "new_id": "R022"
-      },
-      {
-        "old_id": "R037",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R038",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R039",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R040",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "層次：第○章/1-1/一、/（一）/1./（1）",
-        "new_id": "R023"
-      },
-      {
-        "old_id": "R041",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "一般分到第四層即可",
-        "new_id": "R024"
-      },
-      {
-        "old_id": "R042",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "章16pt粗體置中",
-        "new_id": "R025"
-      },
-      {
-        "old_id": "R043",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "章行距2倍、與節不空行",
-        "new_id": "R026"
-      },
-      {
-        "old_id": "R044",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "節1-1、14pt粗體靠左不縮排、1.5倍",
-        "new_id": "R027"
-      },
-      {
-        "old_id": "R045",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "更深層12pt；縮排1.5/2.5/3/4字元",
-        "new_id": "R028"
-      },
-      {
-        "old_id": "R046",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "編碼框稱標題1.5倍；章以R043的2倍為準",
-        "new_id": "R029"
-      },
-      {
-        "old_id": "R047",
-        "fate": "renumbered",
-        "section": "references",
-        "condition": "參考文獻標題14pt粗體靠左1.5倍",
-        "new_id": "R500"
-      },
-      {
-        "old_id": "R048",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "附錄非章節、目錄靠左不縮排",
-        "new_id": "R030"
-      },
-      {
-        "old_id": "R049",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R050",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "摘要標題18pt置中1.5倍、與內文不空行",
-        "new_id": "R031"
-      },
-      {
-        "old_id": "R051",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "摘要內文12pt左右對齊首行2字1.5倍",
-        "new_id": "R032"
-      },
-      {
-        "old_id": "R052",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "關鍵詞3–5個、與摘要空1行、12pt靠左",
-        "new_id": "R033"
-      },
-      {
-        "old_id": "R053",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R054",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R055",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R056",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R057",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R058",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R059",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R060",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "目錄標題16pt置中1.5倍",
-        "new_id": "R034"
-      },
-      {
-        "old_id": "R061",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "目錄章條目12pt、頁碼右、阿拉伯數字",
-        "new_id": "R035"
-      },
-      {
-        "old_id": "R062",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "目錄節縮排2字、頁碼阿拉伯數字",
-        "new_id": "R036"
-      },
-      {
-        "old_id": "R063",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "參考文獻/附錄在目錄靠左不縮排且有頁碼",
-        "new_id": "R037"
-      },
-      {
-        "old_id": "R064",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "圖目錄標題16pt置中1.5倍",
-        "new_id": "R038"
-      },
-      {
-        "old_id": "R065",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "圖目錄條目頁碼置右、大寫羅馬數字（upperRoman）",
-        "new_id": "R039"
-      },
-      {
-        "old_id": "R066",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "表目錄標題16pt置中1.5倍",
-        "new_id": "R040"
-      },
-      {
-        "old_id": "R067",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "表目錄條目頁碼置右、大寫羅馬數字（upperRoman）",
-        "new_id": "R041"
-      },
-      {
-        "old_id": "R068",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R069",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R070",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "前頁頁碼 upperRoman",
-        "new_id": "R042"
-      },
-      {
-        "old_id": "R071",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "正文頁碼阿拉伯數字",
-        "new_id": "R043"
-      },
-      {
-        "old_id": "R072",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "目錄前頁碼範例 III–VI",
-        "new_id": "R044"
-      },
-      {
-        "old_id": "R073",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R074",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R075",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R076",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R077",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R078",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R079",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R080",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "圖編號 章-號 + 標題",
-        "new_id": "R045"
-      },
-      {
-        "old_id": "R081",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "圖置中、圖名下方置中12pt1.5倍",
-        "new_id": "R046"
-      },
-      {
-        "old_id": "R082",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "圖面積 ≤ 頁面1/4",
-        "new_id": "R047"
-      },
-      {
-        "old_id": "R083",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "有圖必入圖目錄",
-        "new_id": "R048"
-      },
-      {
-        "old_id": "R084",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "圖資料來源置中加括號",
-        "new_id": "R049"
-      },
-      {
-        "old_id": "R085",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "表編號 章-號 + 標題",
-        "new_id": "R050"
-      },
-      {
-        "old_id": "R086",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "表名上方靠左12pt1.5倍",
-        "new_id": "R051"
-      },
-      {
-        "old_id": "R087",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "表格頁面置中",
-        "new_id": "R052"
-      },
-      {
-        "old_id": "R088",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "有表必入表目錄",
-        "new_id": "R053"
-      },
-      {
-        "old_id": "R089",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "表資料來源下方加括號",
-        "new_id": "R054"
-      },
-      {
-        "old_id": "R090",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "圖表期刊資料來源格式",
-        "new_id": "R055"
-      },
-      {
-        "old_id": "R091",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "圖表書籍資料來源格式",
-        "new_id": "R056"
-      },
-      {
-        "old_id": "R092",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "非引用可註研究者繪製等",
-        "new_id": "R057"
-      },
-      {
-        "old_id": "R093",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "英文正文引註格式",
-        "new_id": "R058"
-      },
-      {
-        "old_id": "R094",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "中文正文引註格式",
-        "new_id": "R059"
-      },
-      {
-        "old_id": "R095",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R096",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R097",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R098",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R099",
-        "fate": "never_existed",
-        "reason": "原編號依類別預留空號，從未建立此規則"
-      },
-      {
-        "old_id": "R100",
-        "fate": "renumbered",
-        "section": "ch4",
-        "condition": "結論內容指引",
-        "new_id": "R400"
-      },
-      {
-        "old_id": "R101",
-        "fate": "renumbered",
-        "section": "references",
-        "condition": "文獻凸排2字、12pt、1.5倍、不空行",
-        "new_id": "R501"
-      },
-      {
-        "old_id": "R102",
-        "fate": "renumbered",
-        "section": "references",
-        "condition": "依中學生網站 APA",
-        "new_id": "R502"
-      },
-      {
-        "old_id": "R103",
-        "fate": "renumbered",
-        "section": "references",
-        "condition": "紙本文獻≥3篇",
-        "new_id": "R503"
-      },
-      {
-        "old_id": "R104",
-        "fate": "renumbered",
-        "section": "references",
-        "condition": "禁論壇/問答/聊天等",
-        "new_id": "R504"
-      },
-      {
-        "old_id": "R105",
-        "fate": "renumbered",
-        "section": "references",
-        "condition": "允許網址縮短器",
-        "new_id": "R505"
-      },
-      {
-        "old_id": "R106",
-        "fate": "renumbered",
-        "section": "references",
-        "condition": "網路資源引註模板",
-        "new_id": "R506"
-      },
-      {
-        "old_id": "R107",
-        "fate": "renumbered",
-        "section": "references",
-        "condition": "中文在前英文在後；筆畫/字母排序",
-        "new_id": "R507"
-      },
-      {
-        "old_id": "R108",
-        "fate": "renumbered",
-        "section": "references",
-        "condition": "網路/書籍/期刊書寫提示",
-        "new_id": "R508"
-      },
-      {
-        "old_id": "R109",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "字數無限制；整份文件總頁數（含封面、目錄、圖表目錄、正文、參考文獻、附錄）≥10；不套用中學生小論文限制",
-        "new_id": "R060"
-      },
-      {
-        "old_id": "R110",
-        "fate": "renumbered",
-        "section": "global",
-        "condition": "正文強制四章（章數=4；第一章～第四章；參考文獻/附錄不計）",
-        "new_id": "R061"
-      },
-      {
-        "old_id": "R111",
-        "fate": "renumbered",
-        "section": "ch1",
-        "condition": "第一章標題為「緒論」（註解目錄寫法「第一章 緒論」；範例同）",
-        "new_id": "R100"
-      },
-      {
-        "old_id": "R112",
-        "fate": "renumbered",
-        "section": "ch1",
-        "condition": "第一章範例節：1-1 研究動機、1-2 研究目的、1-3 研究方法、1-4 研究流程（出自範例目錄／正文；註解未強制節名）",
-        "new_id": "R101"
-      },
-      {
-        "old_id": "R113",
-        "fate": "renumbered",
-        "section": "ch2",
-        "condition": "第二章標題為「文獻探討」（範例目錄／正文）",
-        "new_id": "R200"
-      },
-      {
-        "old_id": "R114",
-        "fate": "renumbered",
-        "section": "ch3",
-        "condition": "第三章標題為「專題成果」（範例目錄／正文）",
-        "new_id": "R300"
-      },
-      {
-        "old_id": "R115",
-        "fate": "renumbered",
-        "section": "ch4",
-        "condition": "第四章標題為「結論」或範例「結論與建議」（註解目錄寫「第四章 結論」；範例作「結論與建議」）",
-        "new_id": "R401"
-      }
+  "organization": {
+    "purpose": "依繳交單位套用組別；逐章可測",
+    "section_ids": [
+      "global",
+      "ch1",
+      "ch2",
+      "ch3",
+      "ch4",
+      "references",
+      "front_matter"
     ],
-    "summary": {
-      "renumbered": 77,
-      "never_existed": 38,
-      "merged": 0,
-      "deleted": 0
-    },
-    "note": "舊編號原即不連續（依類別預留空號）。分組後 77 條皆保留並重新連續編號；無合併、無刪除。"
+    "filter_hint": "用 submission_profiles[unit].rule_ids；或 sections[id].rule_ids + inherit，並排除 full_document_only"
+  },
+  "limits": {
+    "word_count_unlimited": true,
+    "page_count_min": 10,
+    "page_count_scope": "entire_document_including_cover_toc_appendix",
+    "page_count_scope_status": "confirmed",
+    "source": "使用者確認 2026-10-31",
+    "rule_ids": [
+      "R070",
+      "R071"
+    ]
+  },
+  "structure": {
+    "required_chapter_count": 4,
+    "rule_ids": [
+      "R072",
+      "R100",
+      "R101",
+      "R200",
+      "R300",
+      "R400",
+      "R401"
+    ]
   }
 }
