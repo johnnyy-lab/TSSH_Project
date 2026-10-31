@@ -41,7 +41,7 @@
     37,
     38
   ],
-  "extracted_at_note": "Atomic rules split from 35 Word comments + body callout + user confirmations 2026-10-31. Sections include front_matter R600+.",
+  "extracted_at_note": "Atomic rules from 35 Word comments + body callout + user confirmations 2026-10-31. Final audit 2026-10-31: removed duplicate R657; front_matter inherits page/font globals; R038 no fabricated indent counts.",
   "id_scheme": {
     "global": "R000–R099",
     "ch1": "R100–R199",
@@ -558,10 +558,21 @@
         "R653",
         "R654",
         "R655",
-        "R656",
-        "R657"
+        "R656"
       ],
-      "description": "封面、簽名頁、摘要、目錄、圖／表目錄、前頁羅馬頁碼等。"
+      "description": "封面、簽名頁、摘要、目錄、圖／表目錄、前頁羅馬頁碼等。繳交本組時另套用邊界／字型等全文類 inherit（見 inherit_global_rule_ids）。",
+      "inherit_global_rule_ids": [
+        "R000",
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R008",
+        "R009",
+        "R010"
+      ]
     }
   },
   "submission_profiles": {
@@ -920,7 +931,8 @@
     "front_matter": {
       "label": "封面目錄",
       "sections": [
-        "front_matter"
+        "front_matter",
+        "global"
       ],
       "rule_ids": [
         "R600",
@@ -980,9 +992,18 @@
         "R654",
         "R655",
         "R656",
-        "R657"
+        "R000",
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R008",
+        "R009",
+        "R010"
       ],
-      "exclude_full_document_only": false
+      "exclude_full_document_only": true
     },
     "full_document": {
       "label": "完整文件",
@@ -1148,8 +1169,7 @@
         "R653",
         "R654",
         "R655",
-        "R656",
-        "R657"
+        "R656"
       ],
       "exclude_full_document_only": false
     }
@@ -1722,7 +1742,7 @@
       "section": "global",
       "category": "heading",
       "condition": "章標題行距 2 倍",
-      "source": "comment:25",
+      "source": "comment:25（章行距2倍；優先於編碼框「標題一律1.5倍」）",
       "auto_checkable": true,
       "full_document_only": false,
       "status": "confirmed",
@@ -1931,7 +1951,7 @@
     {
       "section": "global",
       "category": "heading",
-      "condition": "論述層次一般分到第四層即可",
+      "condition": "論述層次一般分到第四層即可；若不敷使用可參考一般博碩士論文格式",
       "source": "body 內文層次編碼框",
       "auto_checkable": false,
       "full_document_only": false,
@@ -1973,8 +1993,8 @@
     {
       "section": "global",
       "category": "heading",
-      "condition": "縮排：一、約 1.5 字元；（一）約 2.5；1. 約 3；（1）約 4",
-      "source": "body 內文層次編碼框",
+      "condition": "第三層以下標題須依層次縮排（comment:28「請注意縮排」；編碼框「範例如下」區無精確字元數，不虛設數值）",
+      "source": "body 內文層次編碼框|comment:28",
       "auto_checkable": "partial",
       "full_document_only": false,
       "status": "confirmed",
@@ -3657,7 +3677,7 @@
     {
       "section": "front_matter",
       "category": "abstract",
-      "condition": "關鍵詞行距 1.5 倍、靠左、不縮排",
+      "condition": "關鍵詞行距 1.5 倍、靠左、不縮排、不空字元",
       "source": "comment:14",
       "auto_checkable": true,
       "full_document_only": false,
@@ -3896,7 +3916,7 @@
       "section": "front_matter",
       "category": "toc",
       "condition": "圖目錄條目頁碼置右、大寫羅馬數字",
-      "source": "comment:21|使用者確認 2026-10-31",
+      "source": "comment:21|使用者確認 2026-10-31（範例條目曾用阿拉伯數字，以註解／確認為準）",
       "auto_checkable": true,
       "full_document_only": false,
       "status": "confirmed",
@@ -3981,7 +4001,7 @@
       "section": "front_matter",
       "category": "toc",
       "condition": "表目錄條目頁碼置右、大寫羅馬數字",
-      "source": "comment:24|使用者確認 2026-10-31",
+      "source": "comment:24|使用者確認 2026-10-31（範例條目曾用阿拉伯數字，以註解／確認為準）",
       "auto_checkable": true,
       "full_document_only": false,
       "status": "confirmed",
@@ -4043,23 +4063,6 @@
       "old_id": "R072",
       "source_original_ids": [
         "R072"
-      ]
-    },
-    {
-      "section": "front_matter",
-      "category": "toc",
-      "condition": "附錄在目錄中非章節、靠左不縮排（見 comment:18）",
-      "source": "comment:18",
-      "auto_checkable": true,
-      "full_document_only": false,
-      "status": "confirmed",
-      "applies_to": [
-        "front_matter"
-      ],
-      "id": "R657",
-      "old_id": "R048",
-      "source_original_ids": [
-        "R048"
       ]
     }
   ],
@@ -4369,7 +4372,7 @@
         "R656"
       ],
       "R048": [
-        "R657"
+        "R645"
       ]
     },
     "previous_R000_era_to_new": {
@@ -4695,7 +4698,8 @@
       "original_ids_mapped": 76,
       "merged": 0,
       "deleted_original_requirements": 0
-    }
+    },
+    "new_to_original": {}
   },
   "organization": {
     "purpose": "依繳交單位套用組別；逐章可測",
