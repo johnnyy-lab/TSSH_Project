@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="light" />
+    <title>巨人高中專題格式檢查器</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="inner">
+        <h1>巨人高中專題格式檢查器</h1>
+        <p>在瀏覽器本機檢查 docx，檔案不會上傳到任何伺服器（MVP 第一版）</p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="card" aria-labelledby="setup-title">
+        <h2 id="setup-title">1. 選擇繳交範圍並上傳檔案</h2>
+        <p class="hint">
+          交某一章時，會套用「該章＋全文類」規則；頁數與強制四章等只在「完整文件」時檢查。
+        </p>
+
+        <label class="field-label" for="profile">繳交範圍</label>
+        <select id="profile" name="profile"></select>
+
+        <div style="height: 14px"></div>
+
+        <label class="field-label" for="file">docx 檔案</label>
+        <div class="file-row">
+          <button type="button" class="file-btn" id="pickFile">選擇檔案</button>
+          <input
+            type="file"
+            id="file"
+            accept=".docx,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          />
+          <span class="file-name" id="fileName">尚未選擇檔案</span>
+        </div>
+
+        <div class="actions">
+          <button type="button" class="btn-primary" id="runBtn" disabled>
+            開始檢查
+          </button>
+          <button type="button" class="btn-ghost hidden" id="clearBtn">
+            清除結果
+          </button>
+        </div>
+        <p class="status-line" id="status" role="status"></p>
+      </section>
+
+      <section class="card hidden" id="summaryCard" aria-labelledby="sum-title">
+        <h2 id="sum-title">2. 檢查摘要</h2>
+        <div class="summary-grid" id="summaryGrid"></div>
+        <p class="hint" id="summaryHint"></p>
+      </section>
+
+      <section class="card hidden" id="reportCard" aria-labelledby="rep-title">
+        <h2 id="rep-title">3. 規則報告</h2>
+        <div class="filters" id="filters" role="toolbar" aria-label="篩選結果">
+          <button type="button" class="chip active" data-filter="all">全部</button>
+          <button type="button" class="chip" data-filter="fail">不通過</button>
+          <button type="button" class="chip" data-filter="pass">通過</button>
+          <button type="button" class="chip" data-filter="not_checked">
+            尚未檢查
+          </button>
+        </div>
+        <ul class="report-list" id="reportList"></ul>
+      </section>
+
+      <p class="footer-note">
+        規則來源：<code>ref/巨人高中專題格式.rules.json</code>　·　MVP
+        已自動檢查紙張、邊界、正文／預設字型、字級、行距、對齊；其餘標示「尚未自動檢查」。
+      </p>
+    </main>
+
+    <script src="vendor/jszip.min.js"></script>
+    <script src="docx-parser.js"></script>
+    <script src="rules-engine.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
