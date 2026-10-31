@@ -416,7 +416,11 @@
   "limits": {
     "word_count": null,
     "page_count": null,
-    "status": "not_stated",
+    "unlimited": true,
+    "applies_zhongxuesheng_essay_limits": false,
+    "note": "巨人高中自訂專題格式；字數與頁數無限制，不套用中學生小論文限制",
+    "source": "使用者確認 2026-10-31",
+    "status": "confirmed",
     "rule_ids": [
       "R109"
     ]
@@ -985,10 +989,10 @@
     {
       "id": "R109",
       "category": "structure",
-      "condition": "字數/頁數限制",
-      "source": null,
-      "auto_checkable": false,
-      "status": "not_stated"
+      "condition": "字數與頁數無限制；不套用中學生小論文限制（巨人高中自訂）",
+      "source": "使用者確認 2026-10-31",
+      "auto_checkable": true,
+      "status": "confirmed"
     }
   ]
 }
