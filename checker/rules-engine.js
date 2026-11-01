@@ -11,7 +11,10 @@
 })(typeof self !== "undefined" ? self : this, function () {
   "use strict";
 
-  /** MVP 已實作的規則編號 */
+  /** 網站版本。0.1 為通過本機測試的最小 MVP。 */
+  var APP_VERSION = "0.1";
+
+  /** 0.1 版已實作的規則編號 */
   var IMPLEMENTED_IDS = {
     R000: true,
     R001: true,
@@ -480,7 +483,7 @@
       } else {
         results.push(
           result(id, rule, "not_checked", {
-            message: "尚未自動檢查（MVP 未實作）",
+            message: "尚未自動檢查（" + APP_VERSION + " 版未實作）",
           })
         );
         summary.not_checked++;
@@ -534,6 +537,7 @@
   }
 
   return {
+    VERSION: APP_VERSION,
     IMPLEMENTED_IDS: IMPLEMENTED_IDS,
     EXPECT: EXPECT,
     runChecks: runChecks,

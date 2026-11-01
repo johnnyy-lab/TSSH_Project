@@ -1,6 +1,8 @@
-# 專題格式檢查器（網頁 MVP）
+# 高中專題（0.1 版）
 
-純瀏覽器端檢查 docx 是否符合 `ref/巨人高中專題格式.rules.json`。
+純瀏覽器端檢查 docx 是否符合 `ref/高中專題格式.rules.json`。
+
+目前版本為 **0.1**，即通過本機測試的最小 MVP。版號定義在 `rules-engine.js` 的 `APP_VERSION`，頁首與頁尾會顯示「0.1 版」。
 
 ## 本機預覽
 
@@ -39,4 +41,4 @@ python -m http.server 8765
 
 ## GitHub Pages
 
-啟用 Pages 指向 repo 根目錄後，網址為 `/checker/`（或 `/TSSH_Project/checker/`）。
+GitHub Pages 網址：<https://johnnyy-lab.github.io/TSSH_Project/checker/>

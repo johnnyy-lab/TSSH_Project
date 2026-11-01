@@ -4,9 +4,9 @@
 (function () {
   "use strict";
 
-  var RULES_URL = "../ref/%E5%B7%A8%E4%BA%BA%E9%AB%98%E4%B8%AD%E5%B0%88%E9%A1%8C%E6%A0%BC%E5%BC%8F.rules.json";
+  var RULES_URL = "../ref/%E9%AB%98%E4%B8%AD%E5%B0%88%E9%A1%8C%E6%A0%BC%E5%BC%8F.rules.json";
   // 也試相對路徑未編碼檔名（部分伺服器）
-  var RULES_URL_ALT = "../ref/巨人高中專題格式.rules.json";
+  var RULES_URL_ALT = "../ref/高中專題格式.rules.json";
 
   var els = {
     profile: document.getElementById("profile"),
@@ -98,7 +98,9 @@
       report.profileLabel +
       "　·　正文段落約 " +
       (report.meta.bodyParagraphCount || 0) +
-      " 段　·　MVP 已實作 " +
+      " 段　·　" +
+      (TsshRulesEngine.VERSION || "0.1") +
+      " 版已實作 " +
       report.implementedIds.length +
       " 條（" +
       report.implementedIds.join("、") +
@@ -275,7 +277,14 @@
     if (state.lastReport) renderReport(state.lastReport);
   });
 
+  function applyVersionLabel() {
+    var label = (TsshRulesEngine.VERSION || "0.1") + " 版";
+    var nodes = document.querySelectorAll("[data-app-version]");
+    for (var i = 0; i < nodes.length; i++) nodes[i].textContent = label;
+  }
+
   // init
+  applyVersionLabel();
   setStatus("載入規則中…");
   loadSpec()
     .then(function (spec) {
